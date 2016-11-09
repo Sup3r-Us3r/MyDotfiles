@@ -10,7 +10,7 @@
 * See [Monster](https://github.com/c00kiemon5ter/monsterwm)
 * See [Bspwm](https://github.com/baskerville/bspwm)
 
-> For more [screenshots](https://github.com/Sup3r-Us3r/dotfiles/tree/master/Screenshots) of my system.
+> For more [screenshots](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots) of my system.
 
 
 ### See some screenshot of these customizations.
@@ -30,11 +30,11 @@ Bspwm
 My script slideshow
 ![Slideshow][screenshot5]
 
-[screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/dotfiles/master/Screenshots/screenshot5.png
-[screenshot2]:https://raw.githubusercontent.com/Sup3r-Us3r/dotfiles/master/Screenshots/screenshot9.png
-[screenshot3]:https://raw.githubusercontent.com/Sup3r-Us3r/dotfiles/master/Screenshots/screenshot8.png
-[screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/dotfiles/master/Screenshots/screenshot12.png
-[screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/dotfiles/master/Screenshots/script-slide.gif
+[screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png
+[screenshot2]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot9.png
+[screenshot3]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot8.png
+[screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot12.png
+[screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/script-slide.gif
 
 ### Installation and dependencies
 

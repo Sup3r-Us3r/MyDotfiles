@@ -10,7 +10,7 @@
 * See [Monster](https://github.com/c00kiemon5ter/monsterwm)
 * See [Bspwm](https://github.com/baskerville/bspwm)
 
-> For more [screenshots](https://github.com/Sup3r-Us3r/dotfiles/tree/master/Screenshots) of my system.
+> For more [screenshots](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots) of my system.
 
 
 ### See some screenshot of these customizations.

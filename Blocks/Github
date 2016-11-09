@@ -1,0 +1,7 @@
+#!/bin/bash
+
+something=$(curl -s https://api.github.com/notifications\?access_token\={{ Your Token }} \
+    | grep "unread" \
+    | wc -l)
+
+echo "" $something

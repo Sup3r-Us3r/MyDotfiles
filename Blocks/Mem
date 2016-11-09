@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+echo -e " `free -mh | awk '/^Mem/ {print $3}'` used"  

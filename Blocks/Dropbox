@@ -1,0 +1,26 @@
+#!/bin/bash
+
+status="$(dropbox-cli status)"
+
+synced="Updated"
+stopped="Dropbox isn't running!"
+connecting="Connecting..."
+
+if [ "$status" == "$stopped" ]; then
+	echo not running # Long message
+	echo not running  # Short message
+	echo "#FF0000" # Red when off
+elif [ "$status" == "$synced" ]; then
+	echo  up to \date # Long message
+	echo  up to \date # Short message
+	echo "#00ccFF" # Cyan when synced
+elif [ "$status" == "$connecting" ]; then
+	echo  connecting... # Long message
+	echo  connecting... # Short message
+	echo "#ffa64d" # orange when connecting
+else
+	eta=$(dropbox status  | grep -E -oe -f --max-count=1 --regexp="([0-9]+ min)")
+	echo  syncing... $eta # Long message
+	echo  syncing... $eta # Short message
+	echo "#FF00FF" # Magenta when syncing
+fi

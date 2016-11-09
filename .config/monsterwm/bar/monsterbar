@@ -1,0 +1,6 @@
+   #!/usr/bin/env bash
+ 
+wm="monsterwm"
+ff="/tmp/monsterwm.fifo"
+ 
+conky -c $HOME/Downloads/Git/monsterwm/bar/conkyrc | dzen2 -bg '#161616' -h 18 -x 0 -ta r -e -p -fn "-misc-Gomme-Medium-R-Normal--20-200-100-100-C-100-ISO10646-1" &

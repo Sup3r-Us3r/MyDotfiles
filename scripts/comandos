@@ -1,0 +1,2 @@
+pactl load-module module-loopback
+pactl unload-module module-loopback

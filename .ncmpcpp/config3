@@ -1,0 +1,52 @@
+mpd settings
+mpd_host                                = "localhost"
+mpd_port                                = "6600"
+mpd_music_dir                           = "~/Music/"
+mpd_connection_timeout                  = "5"
+mpd_crossfade_time                      = "3"
+
+
+#visualizer_look = "∙▋"
+#visualizer_look = "●│"
+#visualizer_look = "●▉"
+#visualizer_look = "◈◈"
+visualizer_look = "∙│"
+#visualizer_color = "white"
+visualizer_type = "spectrum" (spectrum/wave)
+
+# Playlist look
+playlist_display_mode = "classic"
+#song_status_format = "$8%a$9 - $8%t$9"
+# song_list_format = "$2{%A}|{%a}$8 $4::$8 $5%t$8 {$R%b $8}"
+# song_list_format = "$2{%A}|{%a}$8 $4::$8 $5%t$8 {$R%b $8}"
+song_list_format = "$6{%A}|{%a}$8 $4::$8 $3%t$8 {$R%b $4}"
+# song_list_format = "$2{%A}|{%a}$8 $4::$8 $5%t$8 {$R%l $8}"
+#song_list_format = "$6{%A}|{%a}$8 $4::$8 $3%t$8 {$R%l $4}"
+# song_list_format = "$2{%A}|{%a}$8 $4::$8 $5%t$8"
+# song_list_format = "$2{%A}|{%a}$8 $4::$8 $5%t$8"
+# song_status_format = "$1%t $0%a"
+now_playing_prefix = "$2> "
+now_playing_suffix = "$2$/u$2"
+
+header_visibility = "no"
+autocenter_mode = "yes"
+statusbar_visibility = "no"
+main_window_highlight_color = "white"
+discard_colors_if_item_is_selected = "yes"
+
+# Progressbar look
+progressbar_look = "─╼─"
+#progressbar_look = "▀▀ "
+#progressbar_look = "▉▉▉"
+#progressbar_look = "▗▗▗"
+#progressbar_look = "___"
+#progressbar_look = "⠒⠒⠐"
+progressbar_color = "black"
+progressbar_elapsed_color = "white"
+progressbar_boldness = "yes"
+
+# Misc
+display_bitrate = "yes"
+enable_window_title = "no"
+follow_now_playing_lyrics = "yes"
+ignore_leading_the = "yes"

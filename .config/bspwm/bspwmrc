@@ -6,10 +6,8 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 # ------------
 # bspwm config
 # ------------
-bspc config window_gap          10
-bspc config border_width        2
 bspc config pointer_follows_focus false
-bspc config top_padding 35
+bspc config top_padding 40
 bspc config split_ratio         0.52
 bspc config borderless_monocle  true
 bspc config gapless_monocle     true
@@ -20,8 +18,8 @@ bspc config focus_follows_pointer true
 #--------------
 # Border Colors
 #--------------
-bspc config border_width	5
-bspc config window_gap		4
+bspc config border_width	6
+bspc config window_gap		7
 
 bspc config focused_border_color        "white"
 bspc config focused_locked_border_color "#dc322f"
@@ -37,13 +35,13 @@ bspc config urgent_border_color         "#93a1a1"
 # Autostart Programs
 # ------------------
 #panel &
-wmname Bspwm
+#wmname Bspwm
 sxhkd &
-xsetroot -cursor_name left_ptr &
-nitrogen --restore &
-compton --config ~/.config/compton.conf &
-mpd &
-yabar /home/ghost/.config/yabar/yabar.conf &
+#xsetroot -cursor_name left_ptr &
+#nitrogen --restore &
+#compton --config ~/.config/compton.conf &
+#mpd &
+yabar -c /home/ghost/.config/yabar/yabar-bspwm.conf &
 
 # -----
 # Rules
@@ -51,5 +49,5 @@ yabar /home/ghost/.config/yabar/yabar.conf &
 
 #bspc rule -a Firefox desktop=^2
 #bspc rule -a Mpv floating=on
-bspc rule -a urxvt floating=on
+#bspc rule -a urxvt floating=on
 bspc rule -a thunar floating=on

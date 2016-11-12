@@ -1,6 +1,6 @@
 # My dotfiles <3
 
-<img alt="dotfiles" width="200" src="https://cdn.rawgit.com/Sup3r-Us3r/dotfiles/master/Screenshots/dotfiles-logo.png">
+<img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
 
 ### Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.
 

@@ -106,6 +106,24 @@ $ nano ~/.ncmpcpp/config
 
 ```
 
+###Controls
+
+| Key | Description |
+| --- | ----------- |
+| <kbd>1</kbd>| List |
+| <kbd>2</kbd>| List |
+| <kbd>3</kbd>| List |
+| <kbd>4</kbd>| List |
+| <kbd>5</kbd>| List |
+| <kbd>6</kbd>| List |
+| <kbd>7</kbd>| List |
+| <kbd>8</kbd>| Visualizer |
+| <kbd>=</kbd>| Clock |
+| <kbd>space</kbd>| Change visualizer |
+| <kbd>z</kbd>| Ramdom Music |
+| <kbd>space</kbd> or <kbd>p</kbd>| Pause/Play |
+| <kbd>enter</kbd>| Play Music |
+
 ### Note in English
 I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.
 

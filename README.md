@@ -1,4 +1,4 @@
-# My dotfiles <3
+# MyDotfiles 
 
 <img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
 
@@ -13,21 +13,21 @@
 > For more [screenshots](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots) of my system.
 
 
-### See some screenshot of these customizations.
+###  See some screenshot of these customizations.
 
-I3wm
+ I3wm
 ![I3][screenshot1]
 
-Awesomewm
+ Awesomewm
 ![Awesome][screenshot2]
 
-Monsterwm
+ Monsterwm
 ![Monster][screenshot3]
 
-Bspwm
+ Bspwm
 ![Bspwm][screenshot4]
 
-My script slideshow
+ My script slideshow
 ![Slideshow][screenshot5]
 
 [screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png
@@ -36,7 +36,7 @@ My script slideshow
 [screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot13.png
 [screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/script-slide.gif
 
-### Installation and dependencies
+###  Installation and dependencies
 
 For I3wm:
 ```sh
@@ -83,7 +83,7 @@ $ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/do
 
 ```
 
-### Installation and configuration Mpd & Ncmpcpp
+###  Installation and configuration Mpd & Ncmpcpp
 
 Mpd:
 ```sh
@@ -106,7 +106,7 @@ $ nano ~/.ncmpcpp/config
 
 ```
 
-### Controls
+###  Controls
 
 | Key | Description |
 | --- | ----------- |
@@ -123,8 +123,8 @@ $ nano ~/.ncmpcpp/config
 | <kbd>r</kbd>| Repeat mode on/off |
 | <kbd>enter</kbd>| Play Music |
 
-### Note in English
+###  Note in English
 I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.
 
-### Note in Portuguese
+###  Note in Portuguese
 Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.

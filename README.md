@@ -106,7 +106,7 @@ $ nano ~/.ncmpcpp/config
 
 ```
 
-###Controls
+### Controls
 
 | Key | Description |
 | --- | ----------- |
@@ -114,14 +114,13 @@ $ nano ~/.ncmpcpp/config
 | <kbd>2</kbd>| List |
 | <kbd>3</kbd>| List |
 | <kbd>4</kbd>| List |
-| <kbd>5</kbd>| List |
 | <kbd>6</kbd>| List |
-| <kbd>7</kbd>| List |
 | <kbd>8</kbd>| Visualizer |
-| <kbd>=</kbd>| Clock |
 | <kbd>space</kbd>| Change visualizer |
-| <kbd>z</kbd>| Ramdom Music |
-| <kbd>space</kbd> or <kbd>p</kbd>| Pause/Play |
+| <kbd>=</kbd>| Clock |
+| <kbd>z</kbd>| Random Music |
+| <kbd>p</kbd>| Pause/Play |
+| <kbd>r</kbd>| Repeat mode on/off |
 | <kbd>enter</kbd>| Play Music |
 
 ### Note in English

@@ -5,29 +5,29 @@
 ### Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.
 
 
-* See [I3](https://i3wm.org/)
-* See [Awesome](https://awesome.naquadah.org/)
-* See [Monster](https://github.com/c00kiemon5ter/monsterwm)
-* See [Bspwm](https://github.com/baskerville/bspwm)
+* See [I3](https://i3wm.org/) 
+* See [Awesome](https://awesome.naquadah.org/) 
+* See [Monster](https://github.com/c00kiemon5ter/monsterwm) 
+* See [Bspwm](https://github.com/baskerville/bspwm) 
 
 > For more [screenshots](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots) of my system.
 
 
 ###  See some screenshot of these customizations.
 
- I3wm
+I3wm 
 ![I3][screenshot1]
 
- Awesomewm
+Awesomewm 
 ![Awesome][screenshot2]
 
- Monsterwm
+Monsterwm 
 ![Monster][screenshot3]
 
- Bspwm
+Bspwm 
 ![Bspwm][screenshot4]
 
- My script slideshow
+ My script slideshow
 ![Slideshow][screenshot5]
 
 [screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png
@@ -38,14 +38,14 @@
 
 ###  Installation and dependencies
 
-For I3wm:
+ For I3wm:
 ```sh
 $ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky git
 $ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
 
 ```
 
-For Awesomewm:
+ For Awesomewm:
 ```sh
 $ sudo pacman -S awesome lua conky git
 $ mkdir ~/.config/awesome
@@ -56,7 +56,7 @@ $ cp rc.lua.holo rc.lua
 
 ```
 
-For Monsterwm:
+ For Monsterwm:
 ```sh
 $ sudo pacman -S git conky dzen2
 $ cd ~/.config/
@@ -69,7 +69,7 @@ $ sudo make clean install
 
 ```
 
-For Bspwm:
+ For Bspwm:
 ```sh
 $ sudo pacman -S bspwm sxhkd lm_sensors mpc hddtemp nitrogen mpd ncmpcpp git
 $ yaourt -S yabar-git ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
@@ -85,7 +85,7 @@ $ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/do
 
 ###  Installation and configuration Mpd & Ncmpcpp
 
-Mpd:
+ Mpd:
 ```sh
 $ sudo pacman -S mpd
 $ sudo systemctl stop mpd
@@ -97,7 +97,7 @@ $ nano ~/.mpd/mpd.conf
 
 ```
 
-Ncmpcpp:
+ Ncmpcpp:
 ```sh
 $ sudo pacman -S ncmpcpp
 $ mkdir ~/.ncmpcpp
@@ -106,7 +106,7 @@ $ nano ~/.ncmpcpp/config
 
 ```
 
-###  Controls
+### Controls 
 
 | Key | Description |
 | --- | ----------- |
@@ -123,8 +123,8 @@ $ nano ~/.ncmpcpp/config
 | <kbd>r</kbd>| Repeat mode on/off |
 | <kbd>enter</kbd>| Play Music |
 
-###  Note in English
+###  Note in English
 I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.
 
-###  Note in Portuguese
+###  Note in Portuguese
 Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.

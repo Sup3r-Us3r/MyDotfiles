@@ -38,14 +38,14 @@
 
 ### -> Installation and dependencies
 
-### `* For I3wm:`
+### `For I3wm:`
 ```sh
 $ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky scrot zsh git
 $ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2
 
 ```
 
-### `* For Awesomewm:`
+### `For Awesomewm:`
 ```sh
 $ sudo pacman -S awesome lua conky git
 $ mkdir ~/.config/awesome
@@ -56,7 +56,7 @@ $ cp rc.lua.holo rc.lua
 
 ```
 
-### `* For Monsterwm:`
+### `For Monsterwm:`
 ```sh
 $ sudo pacman -S git conky dzen2
 $ cd ~/.config/
@@ -69,7 +69,7 @@ $ sudo make clean install
 
 ```
 
-### `* For Bspwm:`
+### `For Bspwm:`
 ```sh
 $ sudo pacman -S bspwm sxhkd lm_sensors mpc hddtemp nitrogen mpd ncmpcpp scrot git
 $ yaourt -S yabar-git ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2
@@ -85,7 +85,7 @@ $ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/My
 
 ### -> Installation and configuration Mpd & Ncmpcpp
 
-### `* Mpd:`
+### `Mpd:`
 ```sh
 $ sudo pacman -S mpd
 $ sudo systemctl stop mpd
@@ -97,7 +97,7 @@ $ nano ~/.mpd/mpd.conf
 
 ```
 
-### `* Ncmpcpp:`
+### `Ncmpcpp:`
 ```sh
 $ sudo pacman -S ncmpcpp
 $ mkdir ~/.ncmpcpp

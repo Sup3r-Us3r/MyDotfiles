@@ -40,8 +40,8 @@
 
 ### * For I3wm:
 ```sh
-$ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky git
-$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
+$ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky scrot zsh git
+$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2
 
 ```
 
@@ -71,15 +71,15 @@ $ sudo make clean install
 
 ### * For Bspwm:
 ```sh
-$ sudo pacman -S bspwm sxhkd lm_sensors mpc hddtemp nitrogen mpd ncmpcpp git
-$ yaourt -S yabar-git ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
+$ sudo pacman -S bspwm sxhkd lm_sensors mpc hddtemp nitrogen mpd ncmpcpp scrot git
+$ yaourt -S yabar-git ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2
 $ mkdir ~/.config/bspwm
 $ cd ~/.config/bspwm
-$ touch bspwmrc && nano bspwmrc ///Paste this = https://github.com/Sup3r-Us3r/dotfiles/blob/master/config/bspwm/bspwmrc
+$ touch bspwmrc && nano bspwmrc ///Paste this = https://github.com/Sup3r-Us3r/MyDotfiles/blob/master/.config/bspwm/bspwmrc
 $ sudo chmod +x bspwmrc
 $ mkdir ~/.config/sxhkd
 $ cd ~/.config/sxhkd
-$ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/dotfiles/blob/master/config/sxhkd/sxhkdrc
+$ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/MyDotfiles/blob/master/.config/sxhkd/sxhkdrc
 
 ```
 

@@ -8,10 +8,10 @@
 ```
 ==============================
 
-<img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
-
 | SOME SETTINGS FOR I3WM, AWESOMEWM, MONSTERWM, BSPWM AND SEVERAL SCRIPTS. |
 | ------------------------------------------------------------------------ |
+
+<img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
 
 * [X] See [I3](https://i3wm.org/)
 * [X] See [Awesome](https://awesome.naquadah.org/)

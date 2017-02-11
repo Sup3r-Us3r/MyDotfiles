@@ -49,7 +49,7 @@
 ### `For I3wm:`
 ```sh
 $ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky scrot zsh git
-$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2
+$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2 lemonbar-git i3-gaps-git
 
 ```
 
@@ -66,9 +66,7 @@ $ cp rc.lua.holo rc.lua
 
 ### `For Monsterwm:`
 ```sh
-$ sudo pacman -S git Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.
-
-conky dzen2
+$ sudo pacman -S git conky
 $ cd ~/.config/
 $ git clone https://github.com/c00kiemon5ter/monsterwm.git
 $ cd monsterwm
@@ -76,7 +74,7 @@ $ cp config.def.h config.h
 $ nano config.h
 $ make
 $ sudo make clean install
-
+/// To use the bar just run: conky -c ~/.config/monsterwm/bar
 ```
 
 ### `For Bspwm:`

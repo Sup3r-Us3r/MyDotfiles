@@ -13,19 +13,19 @@
 #define MASTER_SIZE     0.52
 #define SHOW_PANEL      True      /* show panel by default on exec */
 #define TOP_PANEL       True      /* False means panel is on bottom */
-#define PANEL_HEIGHT    20        /* 0 for no space for panel, thus no panel */
+#define PANEL_HEIGHT    30        /* 0 for no space for panel, thus no panel */
 #define DEFAULT_MODE    TILE      /* initial layout/mode: TILE MONOCLE BSTACK GRID FLOAT */
 #define ATTACH_ASIDE    True      /* False means new window is master */
 #define FOLLOW_WINDOW   False     /* follow the window when moved to a different desktop */
 #define FOLLOW_MOUSE    False     /* focus the window the mouse just entered */
 #define CLICK_TO_FOCUS  True      /* focus an unfocused window when clicked  */
 #define FOCUS_BUTTON    Button3   /* mouse button to be used along with CLICK_TO_FOCUS */
-#define BORDER_WIDTH    5         /* window border width */
-#define FOCUS           "#ff950e" /* focused window border color    */
+#define BORDER_WIDTH    4         /* window border width */
+#define FOCUS           "#F64444" /* focused window border color    */
 #define UNFOCUS         "#444444" /* unfocused window border color  */
 #define MINWSZ          50        /* minimum window size in pixels  */
 #define DEFAULT_DESKTOP 0         /* the desktop to focus initially */
-#define DESKTOPS        4         /* number of desktops - edit DESKTOPCHANGE keys to suit */
+#define DESKTOPS        10         /* number of desktops - edit DESKTOPCHANGE keys to suit */
 
 /**
  * open applications to specified desktop with specified mode.
@@ -44,7 +44,7 @@ static const AppRule rules[] = { \
  * custom commands
  * must always end with ', NULL };'
  */
-static const char *termcmd[] = { "termite",   NULL };
+static const char *termcmd[] = { "xterm",     NULL };
 static const char *menucmd[] = { "dmenu_run", NULL };
 
 #define DESKTOPCHANGE(K,N) \
@@ -58,7 +58,7 @@ static Key keys[] = {
     /* modifier          key            function           argument */
     {  MOD1,             XK_b,          togglepanel,       {NULL}},
     {  MOD1,             XK_BackSpace,  focusurgent,       {NULL}},
-    {  MOD4|SHIFT,       XK_q,          killclient,        {NULL}},
+    {  MOD1|SHIFT,       XK_c,          killclient,        {NULL}},
     {  MOD1,             XK_j,          next_win,          {NULL}},
     {  MOD1,             XK_k,          prev_win,          {NULL}},
     {  MOD1,             XK_h,          resize_master,     {.i = -10}}, /* decrease size in px */
@@ -80,8 +80,8 @@ static Key keys[] = {
     {  MOD1|SHIFT,       XK_f,          switch_mode,       {.i = FLOAT}},
     {  MOD1|CONTROL,     XK_r,          quit,              {.i = 0}}, /* quit with exit value 0 */
     {  MOD1|CONTROL,     XK_q,          quit,              {.i = 1}}, /* quit with exit value 1 */
-    {  MOD4,             XK_Return,     spawn,             {.com = termcmd}},
-    {  MOD4,             XK_d,          spawn,             {.com = menucmd}},
+    {  MOD1|SHIFT,       XK_Return,     spawn,             {.com = termcmd}},
+    {  MOD4,             XK_v,          spawn,             {.com = menucmd}},
     {  MOD4,             XK_j,          moveresize,        {.v = (int []){   0,  25,   0,   0 }}}, /* move down  */
     {  MOD4,             XK_k,          moveresize,        {.v = (int []){   0, -25,   0,   0 }}}, /* move up    */
     {  MOD4,             XK_l,          moveresize,        {.v = (int []){  25,   0,   0,   0 }}}, /* move right */

@@ -134,4 +134,4 @@ $ nano ~/.ncmpcpp/config
 I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.
 
 ### `Note in Portuguese`
-Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.
+Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões. 

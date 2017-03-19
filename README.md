@@ -41,11 +41,20 @@
 `My script slideshow`
 ![Slideshow][screenshot5]
 
+`My Theme and Icons`
+![ThemeAndIcons][screenshot6]
+
+| 𝓨𝓸𝓾'𝓵𝓵 𝓯𝓲𝓷𝓭 𝓽𝓱𝓮𝓶 𝓲𝓷 .𝓽𝓱𝓮𝓶𝓮𝓼 𝓪𝓷𝓭 .𝓲𝓬𝓸𝓷𝓼 |
+| ---------------------------------------------------- |
+
+---
+
 [screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png
 [screenshot2]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot9.png
 [screenshot3]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot8.png
 [screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot13.png
 [screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/script-slide.gif
+[screenshot6]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot14.png
 
 ### Installation and dependencies
 

@@ -1,19 +1,30 @@
-# MyDotfiles <3
+<pre id="taag_font_DeltaCorpsPriest1" style="float:left;" class="fig-ansi" contenteditable="true">
+████████▄   ▄██████▄      ███        ▄████████  ▄█   ▄█          ▄████████    ▄████████ 
+███   ▀███ ███    ███ ▀█████████▄   ███    ███ ███  ███         ███    ███   ███    ███ 
+███    ███ ███    ███    ▀███▀▀██   ███    █▀  ███▌ ███         ███    █▀    ███    █▀  
+███    ███ ███    ███     ███   ▀  ▄███▄▄▄     ███▌ ███        ▄███▄▄▄       ███        
+███    ███ ███    ███     ███     ▀▀███▀▀▀     ███▌ ███       ▀▀███▀▀▀     ▀███████████ 
+███    ███ ███    ███     ███       ███        ███  ███         ███    █▄           ███ 
+███   ▄███ ███    ███     ███       ███        ███  ███▌    ▄   ███    ███    ▄█    ███ 
+████████▀   ▀██████▀     ▄████▀     ███        █▀   █████▄▄██   ██████████  ▄████████▀  
+                                                    ▀                                   </pre>
+
+
+| 𝓢𝓸𝓶𝓮 𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼 𝓯𝓸𝓻 𝓲3, 𝓐𝔀𝓮𝓼𝓸𝓶𝓮, 𝓜𝓸𝓷𝓼𝓽𝓮𝓻, 𝓑𝓼𝓹𝔀𝓶 𝓪𝓷𝓭 𝓼𝓮𝓿𝓮𝓻𝓪𝓵 𝓼𝓬𝓻𝓲𝓹𝓽𝓼. |
+| ------------------------------------------------------------------------------------------ |
+
 
 <img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
 
-### Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.
-
-
-* See [I3](https://i3wm.org/)
-* See [Awesome](https://awesome.naquadah.org/)
-* See [Monster](https://github.com/c00kiemon5ter/monsterwm)
-* See [Bspwm](https://github.com/baskerville/bspwm)
+* [X] See [I3](https://i3wm.org/)
+* [X] See [Awesome](https://awesome.naquadah.org/)
+* [X] See [Monster](https://github.com/c00kiemon5ter/monsterwm)
+* [X] See [Bspwm](https://github.com/baskerville/bspwm)
 
 > For more [screenshots](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots) of my system.
 
 
-### -> See some screenshot of these customizations.
+### See some screenshot of these customizations.
 
 `I3wm`
 ![I3][screenshot1]
@@ -36,12 +47,12 @@
 [screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot13.png
 [screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/script-slide.gif
 
-### -> Installation and dependencies
+### Installation and dependencies
 
 ### `For I3wm:`
 ```sh
 $ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky scrot zsh git
-$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2
+$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font dmenu2 lemonbar-git i3-gaps-git
 
 ```
 
@@ -58,7 +69,7 @@ $ cp rc.lua.holo rc.lua
 
 ### `For Monsterwm:`
 ```sh
-$ sudo pacman -S git conky dzen2
+$ sudo pacman -S git conky
 $ cd ~/.config/
 $ git clone https://github.com/c00kiemon5ter/monsterwm.git
 $ cd monsterwm
@@ -66,7 +77,7 @@ $ cp config.def.h config.h
 $ nano config.h
 $ make
 $ sudo make clean install
-
+/// To use the bar just run: conky -c ~/.config/monsterwm/bar
 ```
 
 ### `For Bspwm:`
@@ -83,7 +94,7 @@ $ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/My
 
 ```
 
-### -> Installation and configuration Mpd & Ncmpcpp
+### Installation and configuration Mpd & Ncmpcpp
 
 ### `Mpd:`
 ```sh
@@ -123,8 +134,8 @@ $ nano ~/.ncmpcpp/config
 | <kbd>r</kbd>| Repeat mode on/off |
 | <kbd>enter</kbd>| Play Music |
 
-### `* Note in English`
+### `Note in English`
 I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.
 
-### `* Note in Portuguese`
-Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.
+### `Note in Portuguese`
+Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões. 

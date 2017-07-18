@@ -5,4 +5,4 @@ $ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-t
 
 ```
 
-![i3wm](https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png)
+![i3wm](https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/i3wm.png)

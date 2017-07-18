@@ -84,13 +84,27 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+###SYNTAX-HIGHLIGHTING###
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+setopt nohashdirs
+setopt completealiases
+setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_REDUCE_BLANKS
+setopt HIST_VERIFY
+
 ###MEUS ALIASES###
 alias pac="sudo pacman -S"
 alias psyu="sudo pacman -Syyu --noconfirm"
-alias pacr="sudo pacman -Rns"
+alias pacr="sudo pacman -Rnsc"
 alias paco="sudo pacman -Sc && sudo pacman-optimize"
 alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep "
-alias limpeza="cd /var/cache/pacman/pkg/"
+alias limpeza="sudo rm -rf /var/cache/pacman/pkg/*.*"
+alias tempo="curl http://wttr.in/itabira"
 alias sf="screenfetch | lolcat"
+alias nf="neofetch --w3m /home/ghost/Imagens/logos/fsociety.png --size 330px --loop --colors 7 1 7 1"
 alias infosystem="~/Documentos/info-i3.sh"
 alias q="exit"

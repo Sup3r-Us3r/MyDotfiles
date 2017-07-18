@@ -5,13 +5,13 @@ visualizer_in_stereo = "no"
 visualizer_type = "spectrum" (spectrum/wave)
 #visualizer_look = "∙▋"
 #visualizer_look = "●│"
-visualizer_look = "◈▉"
+#visualizer_look = "◈▉"
 #visualizer_look = "◈◈"
-#visualizer_look = "∙│"
-#visualizer_color = "white"
+visualizer_look = "∙│"
+visualizer_color = "white"
 
 
-main_window_highlight_color = "white"
+#main_window_highlight_color = "white"
 
 progressbar_look = "─╼─"
 #progressbar_look = "▀▀ "
@@ -42,6 +42,3 @@ playlist_display_mode = "columns" (classic/columns)
 autocenter_mode = "yes"
 titles_visibility = "no"
 enable_window_title = "no"
-
-
-

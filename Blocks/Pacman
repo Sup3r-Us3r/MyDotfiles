@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+################################
+# Shows pacman packages that need updated.
+#
+# Dependencies:
+# - checkupdates
+# - [notify-send]
+#
+# @return {Number}: Outdated packages
+################################
+
+dir=$(dirname $0)
+source $dir/util.sh
+
+full=""
+short=""
+color=""
+status=0
+
+
+packages=$(checkupdates)
+numPackages=$(numLines "$packages")
+
+full=$numPackages
+short=$full
+
+
+echo $full
+echo $short
+echo $color
+
+
+case $BLOCK_BUTTON in
+	# right click: show packages
+	3) notify-send "Pacman packages" "$packages" ;;
+esac
+
+
+exit $status
+
+
+

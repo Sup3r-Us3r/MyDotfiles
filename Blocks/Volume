@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+#dir=$(dirname $0)
+source $HOME/Blocks/util.sh
+
+full=""
+short=""
+color=""
+status=0
+
+step=${BLOCK_INSTANCE:-5}
+
+
+getVolume() {
+	ponymix get-volume
+}
+
+isMuted() {
+	ponymix is-muted
+}
+
+
+case $BLOCK_BUTTON in
+	# right click
+	# mute/unmute
+	3) ponymix toggle >/dev/null ;;
+
+	# scroll up
+	# raise volume
+	4) ponymix increase $step >/dev/null ;;
+
+	# scroll down
+	# lower volume
+	5) ponymix decrease $step >/dev/null ;;
+esac
+
+
+vol=$(getVolume)
+
+# level-based icon
+if (( $vol == 0 )); then
+	icon=""
+elif (( $vol < 34 )); then
+	icon=""
+elif (( $vol < 67 )); then
+	icon=""
+else
+	icon=""
+fi
+
+# determine mute status
+if isMuted; then
+	color="#ff0000"
+	status=33
+fi
+
+full="$icon $vol%"
+short=$vol
+
+
+echo $full
+echo $short
+echo $color
+exit $status

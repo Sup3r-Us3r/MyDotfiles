@@ -1,2 +1,0 @@
-neofetch --colors 1 5 4 7 1 6 --bold off --underline_char ▱ --image_position left --image Pictures/Wallpapers/
-1 7 2 3 4

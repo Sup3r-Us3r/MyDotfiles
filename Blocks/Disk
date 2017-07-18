@@ -1,3 +1,0 @@
-#!/bin/zsh
-
-echo `df -h | grep "/$" | awk -F' ' '{ print $4 }'`

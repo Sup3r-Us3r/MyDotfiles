@@ -21,6 +21,7 @@
 | `Terminal Emulator` | <kbd>termite</kbd>                         |
 | `Compositor`        | <kbd>compton</kbd>                         |
 | `File Manager`      | <kbd>nautilus</kbd>                        |
+| `Text Editor`       | <kbd>leafpad</kbd>                         |
 | `Font`              | <kbd>Fantasque Sans Mono</kbd>             |
 | `Program Launcher`  | <kbd>dmenu2</kbd>                          |
 | `Browser`           | <kbd>google-chrome</kbd>                   |

@@ -10,16 +10,7 @@
                                                     ▀                                   </pre>
 
 
-| 𝓢𝓸𝓶𝓮 𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼 𝓯𝓸𝓻 𝓲3, 𝓐𝔀𝓮𝓼𝓸𝓶𝓮, 𝓜𝓸𝓷𝓼𝓽𝓮𝓻, 𝓑𝓼𝓹𝔀𝓶 𝓪𝓷𝓭 𝓼𝓮𝓿𝓮𝓻𝓪𝓵 𝓼𝓬𝓻𝓲𝓹𝓽𝓼. |
-| ------------------------------------------------------------------------------------------ |
-
-
-<img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
-
-* [X] See [I3](https://i3wm.org/)
-* [X] See [Awesome](https://awesome.naquadah.org/)
-* [X] See [Monster](https://github.com/c00kiemon5ter/monsterwm)
-* [X] See [Bspwm](https://github.com/baskerville/bspwm)
+[![i3wm](https://img.shields.io/badge/I3-WM-blue.svg)](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/.config/i3) [![bspwm](https://img.shields.io/badge/BSP-WM-green.svg)](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/.config/bspwm) [![monsterwm](https://img.shields.io/badge/MONSTER-WM-red.svg)](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/.config/monsterwm) [![awesomewm](https://img.shields.io/badge/AWESOME-WM-yellow.svg)](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/.config/awesomewm)
 
 | Description         |     Packages                               |
 | :----------:        | ------------------------------------------ |

@@ -54,7 +54,7 @@ echo "%{c}%{A:p:}Shutdown%{A}  %{A:r:}Reboot%{A}  %{A:s:}Suspend%{A}  %{A:l:}Loc
                 exit
                 ;;
             'l')
-                /home/ghost/.config/i3/i3lock/i3lock.sh
+                sh ~/.config/i3/i3lock/i3lock.sh
                 pkill lemonbar
                 ;;
 

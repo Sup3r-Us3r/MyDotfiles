@@ -102,7 +102,6 @@ bindsym XF86AudioRaiseVolume exec "amixer set Master 5%+"
 bindsym XF86AudioLowerVolume exec "amixer set Master 5%-"
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
-bindsym XF86TouchpadToggle exec /home/$USER/Blocks/toggletouchpad.sh
 
 ##======================================================================================
 ##======================================================================================

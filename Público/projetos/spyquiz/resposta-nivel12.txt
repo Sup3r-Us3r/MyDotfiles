@@ -1,0 +1,29 @@
+
+M + M + M = 1080 | 360 - 360 - 360
+M + A + A = 1314 | 360 - 477 - 477
+A + T + T = 511  | 477 - 17 - 17
+A + T x M = E    | 477 - 17 - 360 
+
+Resolve a multiplicação primeiro e depois a adição.
+>>> 17 * 360 = 6120   | 6120 + 477 = 6597
+    (T)  (M)   (Resp)   (Resp) (A)     4
+
+E + 3º Termo da PG (2,4,...) | 6597 - 8 = 6605
+
+         n-1
+an = a1.q
+
+        ³-¹
+a3 = 2.2
+
+        ²
+a3 = 2.2
+
+a3 = 2.4 = 8
+
+
+Log4 64=x  = 3
+
+RESULTADO FINAL = 6608
+
+

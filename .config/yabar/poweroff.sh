@@ -3,8 +3,8 @@
 CD="$HOME/.config/termite/config"
 
 # Fetch the Colors
-BG=$(cat ${CD} | grep -i background | tail -c 8)
-FG=$(cat ${CD} | grep -i foreground | tail -c 8)
+BG=#000e00
+FG=#319402
 
 BLACK=$(cat ${CD} | grep -i color8 | tail -c 8)
 RED=$(cat ${CD} | grep -i color9 | tail -c 8)
@@ -54,7 +54,7 @@ echo "%{c}%{A:p:}Shutdown%{A}  %{A:r:}Reboot%{A}  %{A:s:}Suspend%{A}  %{A:l:}Loc
                 exit
                 ;;
             'l')
-                /home/ghost/.config/i3/i3lock/i3lock.sh
+                sh ~/.config/i3/i3lock/i3lock.sh
                 pkill lemonbar
                 ;;
 

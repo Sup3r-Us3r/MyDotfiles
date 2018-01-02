@@ -7,6 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -105,6 +106,19 @@ alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep "
 alias limpeza="sudo rm -rf /var/cache/pacman/pkg/*.*"
 alias tempo="curl http://wttr.in/itabira"
 alias sf="screenfetch | lolcat"
-alias nf="neofetch --w3m /home/ghost/Imagens/logos/fsociety.png --size 330px --loop --colors 7 1 7 1"
+alias lc="colorls"
+alias nf="neofetch --w3m /home/ghost/Imagens/logos/razer1.png --size 331px --loop --colors 7 2 7 2"
+#alias spotify="sh /home/ghost/Downloads/Git/Spotify-AdKiller/spotify-wrapper.sh"
 alias infosystem="~/Documentos/info-i3.sh"
 alias q="exit"
+alias msfstart="sudo /opt/metasploit/ctlscript.sh start"
+alias msfrestart="sudo /opt/metasploit/ctlscript.sh restart"
+alias msfstop="sudo /opt/metasploit/ctlscript.sh stop"
+
+###ALIASES DE CORES###
+alias color1="~/Downloads/Git/Color-Scripts/color-scripts/colortest"
+alias color2="~/Downloads/Git/Color-Scripts/color-scripts/colorbars"
+alias color3="~/Downloads/Git/Color-Scripts/color-scripts/pukeskull"
+alias color4="~/Documentos/pacman+.sh"
+alias pipes1="~/Downloads/Git/Color-Scripts/color-scripts/pipes2"
+alias pipes2="~/Downloads/Git/Color-Scripts/color-scripts/pipes2-slim"

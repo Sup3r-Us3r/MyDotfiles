@@ -1,7 +1,7 @@
 #!/bin/sh
 
-youtube=http://migre.me/uJ0RS
-face=facebook.com/magno.tutor
+github=github.com/Sup3r-Us3r
+website=sup3r-us3r.github.io
 
 c00=$'\e[0;30m'
 c01=$'\e[0;31m'
@@ -30,8 +30,8 @@ system=`sed 's/\s*[\(\\]\+.*$//' /etc/issue`
 
 if [ -n "$DISPLAY" ]; then
     wmname=`echo i3`
-    termfn=`echo Roboto Mono for Powerline`
-    systfn=`echo FontAwesome 11`
+    termfn=`echo Roboto Mono for Powerline 12`
+    systfn=`echo Fantasque Sans Mono 12`
 else
     wmname="none"
     termfn="none"
@@ -42,6 +42,7 @@ pkgnum=`pacman -Q|wc -l`
 birthd=`sed -n '1s/^\[\([0-9-]*\).*$/\1/p' /var/log/pacman.log | tr - .`
 
 cat << EOF
+
 ${c00}▉▉  | ${f1}OS ${f0}........... $f2$system
 ${c08}  ▉▉| ${f1}name ${f0}......... $f2$HOSTNAME
 ${c01}▉▉  | ${f1}birth day${f0}..... $f2$birthd
@@ -56,6 +57,7 @@ ${c05}▉▉  |
 ${c13}  ▉▉| ${f1}kernel ${f0}....... $f2$kernel
 ${c06}▉▉  | ${f1}processor ${f0}.... $f2$cpuspe
 ${c14}  ▉▉| 
-${c07}▉▉  | ${f1}facebook ${f0}..... $f2$face
-${c15}  ▉▉| ${f1}youtube ${f0}...... $f2$youtube
+${c07}▉▉  | ${f1}website ${f0}...... $f2$website
+${c15}  ▉▉| ${f1}github ${f0}....... $f2$github
+
 EOF

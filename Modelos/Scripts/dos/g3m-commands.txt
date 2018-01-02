@@ -1,0 +1,5 @@
+COMPILAR ::: gcc g3m.c -o g3m
+-
+ATACAR INTERNET PRIVADA ::: ./g3m -h ip -T 3
+-
+ATACAR SITES ::: ./g3m -h ip -T 3 -p 80,80

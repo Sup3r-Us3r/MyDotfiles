@@ -1,0 +1,428 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Apresentacao	../spyquiz-save	/^def Apresentacao():$/;"	kind:function	line:37
+Apresentacao	../spyquiz.py	/^def Apresentacao():$/;"	kind:function	line:37
+ArchDerivados	../spyquiz-save	/^	def ArchDerivados():$/;"	kind:function	line:204
+ArchDerivados	../spyquiz.py	/^	def ArchDerivados():$/;"	kind:function	line:204
+Bloco1	../spyquiz-save	/^def Bloco1():$/;"	kind:function	line:242
+Bloco1	../spyquiz.py	/^def Bloco1():$/;"	kind:function	line:242
+Bloco10	../spyquiz-save	/^def Bloco10():$/;"	kind:function	line:697
+Bloco10	../spyquiz.py	/^def Bloco10():$/;"	kind:function	line:692
+Bloco11	../spyquiz-save	/^def Bloco11():$/;"	kind:function	line:736
+Bloco11	../spyquiz.py	/^def Bloco11():$/;"	kind:function	line:731
+Bloco12	../spyquiz-save	/^def Bloco12():$/;"	kind:function	line:776
+Bloco12	../spyquiz.py	/^def Bloco12():$/;"	kind:function	line:771
+Bloco13	../spyquiz-save	/^def Bloco13():$/;"	kind:function	line:820
+Bloco13	../spyquiz.py	/^def Bloco13():$/;"	kind:function	line:815
+Bloco14	../spyquiz-save	/^def Bloco14():$/;"	kind:function	line:860
+Bloco14	../spyquiz.py	/^def Bloco14():$/;"	kind:function	line:855
+Bloco15	../spyquiz-save	/^def Bloco15():$/;"	kind:function	line:898
+Bloco15	../spyquiz.py	/^def Bloco15():$/;"	kind:function	line:893
+Bloco16	../spyquiz-save	/^def Bloco16():$/;"	kind:function	line:936
+Bloco16	../spyquiz.py	/^def Bloco16():$/;"	kind:function	line:931
+Bloco17	../spyquiz-save	/^def Bloco17():$/;"	kind:function	line:974
+Bloco17	../spyquiz.py	/^def Bloco17():$/;"	kind:function	line:969
+Bloco18	../spyquiz-save	/^def Bloco18():$/;"	kind:function	line:1017
+Bloco18	../spyquiz.py	/^def Bloco18():$/;"	kind:function	line:1012
+Bloco19	../spyquiz-save	/^def Bloco19():$/;"	kind:function	line:1057
+Bloco19	../spyquiz.py	/^def Bloco19():$/;"	kind:function	line:1052
+Bloco2	../spyquiz-save	/^def Bloco2():$/;"	kind:function	line:280
+Bloco2	../spyquiz.py	/^def Bloco2():$/;"	kind:function	line:280
+Bloco20	../spyquiz-save	/^def Bloco20():$/;"	kind:function	line:1099
+Bloco20	../spyquiz.py	/^def Bloco20():$/;"	kind:function	line:1094
+Bloco21	../spyquiz-save	/^def Bloco21():$/;"	kind:function	line:1147
+Bloco21	../spyquiz.py	/^def Bloco21():$/;"	kind:function	line:1142
+Bloco22	../spyquiz-save	/^def Bloco22():$/;"	kind:function	line:1187
+Bloco22	../spyquiz.py	/^def Bloco22():$/;"	kind:function	line:1182
+Bloco23	../spyquiz-save	/^def Bloco23():$/;"	kind:function	line:1225
+Bloco23	../spyquiz.py	/^def Bloco23():$/;"	kind:function	line:1220
+Bloco24	../spyquiz-save	/^def Bloco24():$/;"	kind:function	line:1265
+Bloco24	../spyquiz.py	/^def Bloco24():$/;"	kind:function	line:1260
+Bloco25	../spyquiz-save	/^def Bloco25():$/;"	kind:function	line:1305
+Bloco25	../spyquiz.py	/^def Bloco25():$/;"	kind:function	line:1300
+Bloco26	../spyquiz-save	/^def Bloco26():$/;"	kind:function	line:1343
+Bloco26	../spyquiz.py	/^def Bloco26():$/;"	kind:function	line:1338
+Bloco27	../spyquiz-save	/^def Bloco27():$/;"	kind:function	line:1381
+Bloco27	../spyquiz.py	/^def Bloco27():$/;"	kind:function	line:1376
+Bloco28	../spyquiz-save	/^def Bloco28():$/;"	kind:function	line:1419
+Bloco28	../spyquiz.py	/^def Bloco28():$/;"	kind:function	line:1414
+Bloco29	../spyquiz-save	/^def Bloco29():$/;"	kind:function	line:1457
+Bloco29	../spyquiz.py	/^def Bloco29():$/;"	kind:function	line:1452
+Bloco3	../spyquiz-save	/^def Bloco3():$/;"	kind:function	line:337
+Bloco3	../spyquiz.py	/^def Bloco3():$/;"	kind:function	line:337
+Bloco30	../spyquiz-save	/^def Bloco30():$/;"	kind:function	line:1495
+Bloco30	../spyquiz.py	/^def Bloco30():$/;"	kind:function	line:1490
+Bloco4	../spyquiz-save	/^def Bloco4():$/;"	kind:function	line:390
+Bloco4	../spyquiz.py	/^def Bloco4():$/;"	kind:function	line:390
+Bloco5	../spyquiz-save	/^def Bloco5():$/;"	kind:function	line:428
+Bloco5	../spyquiz.py	/^def Bloco5():$/;"	kind:function	line:428
+Bloco6	../spyquiz-save	/^def Bloco6():$/;"	kind:function	line:532
+Bloco6	../spyquiz.py	/^def Bloco6():$/;"	kind:function	line:527
+Bloco7	../spyquiz-save	/^def Bloco7():$/;"	kind:function	line:579
+Bloco7	../spyquiz.py	/^def Bloco7():$/;"	kind:function	line:574
+Bloco8	../spyquiz-save	/^def Bloco8():$/;"	kind:function	line:619
+Bloco8	../spyquiz.py	/^def Bloco8():$/;"	kind:function	line:614
+Bloco9	../spyquiz-save	/^def Bloco9():$/;"	kind:function	line:659
+Bloco9	../spyquiz.py	/^def Bloco9():$/;"	kind:function	line:654
+ComandoNaoEncontrado	../spyquiz-save	/^def ComandoNaoEncontrado():$/;"	kind:function	line:384
+ComandoNaoEncontrado	../spyquiz.py	/^def ComandoNaoEncontrado():$/;"	kind:function	line:384
+DebianDerivados	../spyquiz-save	/^	def DebianDerivados():$/;"	kind:function	line:211
+DebianDerivados	../spyquiz.py	/^	def DebianDerivados():$/;"	kind:function	line:211
+FimDoDesafio	../spyquiz-save	/^def FimDoDesafio():$/;"	kind:function	line:1535
+FimDoDesafio	../spyquiz.py	/^def FimDoDesafio():$/;"	kind:function	line:1530
+Instalacao	../spyquiz-save	/^def Instalacao():$/;"	kind:function	line:203
+Instalacao	../spyquiz.py	/^def Instalacao():$/;"	kind:function	line:203
+Limpar	../spyquiz-save	/^Limpar = "clear"$/;"	kind:variable	line:15
+Limpar	../spyquiz.py	/^Limpar = "clear"$/;"	kind:variable	line:15
+Menu1	../spyquiz-save	/^def Menu1():$/;"	kind:function	line:55
+Menu1	../spyquiz.py	/^def Menu1():$/;"	kind:function	line:55
+MudarPara	../spyquiz-save	/^def MudarPara():$/;"	kind:function	line:97
+MudarPara	../spyquiz.py	/^def MudarPara():$/;"	kind:function	line:97
+Permissao	../spyquiz-save	/^def Permissao():$/;"	kind:function	line:86
+Permissao	../spyquiz.py	/^def Permissao():$/;"	kind:function	line:86
+Sobre	../spyquiz-save	/^def Sobre():$/;"	kind:function	line:499
+Sobre	../spyquiz.py	/^def Sobre():$/;"	kind:function	line:499
+getpass	../spyquiz-save	/^import getpass$/;"	kind:namespace	line:10
+getpass	../spyquiz.py	/^import getpass$/;"	kind:namespace	line:10
+hashlib	../spyquiz-save	/^import hashlib$/;"	kind:namespace	line:9
+hashlib	../spyquiz.py	/^import hashlib$/;"	kind:namespace	line:9
+login	../spyquiz-save	/^			login = hashlib.sha512(login.encode('utf-8'))$/;"	kind:variable	line:1124
+login	../spyquiz-save	/^			login = hashlib.sha512(login.encode('utf-8'))$/;"	kind:variable	line:555
+login	../spyquiz-save	/^			login = input("\\n\\033[1;32m[*] Login: \\033[1;m")$/;"	kind:variable	line:1123
+login	../spyquiz-save	/^			login = input("\\n\\033[1;32m[*] Login: \\033[1;m")$/;"	kind:variable	line:554
+login	../spyquiz-save	/^			login = login.hexdigest()$/;"	kind:variable	line:1125
+login	../spyquiz-save	/^			login = login.hexdigest()$/;"	kind:variable	line:556
+login	../spyquiz.py	/^			login = hashlib.sha512(login.encode('utf-8'))$/;"	kind:variable	line:1119
+login	../spyquiz.py	/^			login = hashlib.sha512(login.encode('utf-8'))$/;"	kind:variable	line:550
+login	../spyquiz.py	/^			login = input("\\n\\033[1;32m[*] Login: \\033[1;m")$/;"	kind:variable	line:1118
+login	../spyquiz.py	/^			login = input("\\n\\033[1;32m[*] Login: \\033[1;m")$/;"	kind:variable	line:549
+login	../spyquiz.py	/^			login = login.hexdigest()$/;"	kind:variable	line:1120
+login	../spyquiz.py	/^			login = login.hexdigest()$/;"	kind:variable	line:551
+nomes_das_senhas	../spyquiz-save	/^			nomes_das_senhas = input("\\n\\033[1;36mSenha #\\033[1;m"+ str(i) +": ")$/;"	kind:variable	line:477
+nomes_das_senhas	../spyquiz.py	/^			nomes_das_senhas = input("\\n\\033[1;36mSenha #\\033[1;m"+ str(i) +": ")$/;"	kind:variable	line:477
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1034
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1075
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1120
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1164
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1202
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1240
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1282
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1320
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1358
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1396
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1434
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1472
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1510
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:229
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:257
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:297
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:356
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:405
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:466
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:551
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:596
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:636
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:674
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:713
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:753
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:797
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:836
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:875
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:913
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:951
+opcao1	../spyquiz-save	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:989
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1029
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1070
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1115
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1159
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1197
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1235
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1277
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1315
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1353
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1391
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1429
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1467
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:1505
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:229
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:257
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:297
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:356
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:405
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:466
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:546
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:591
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:631
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:669
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:708
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:748
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:792
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:831
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:870
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:908
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:946
+opcao1	../spyquiz.py	/^	opcao1 = input("\\033[1;36mOpção:\\033[1;m ")$/;"	kind:variable	line:984
+os	../spyquiz-save	/^import os$/;"	kind:namespace	line:12
+os	../spyquiz.py	/^import os$/;"	kind:namespace	line:12
+os	../url.py	/^import os$/;"	kind:namespace	line:6
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1038
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1079
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1168
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1206
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1246
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1286
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1324
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1362
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1400
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1438
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1476
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1514
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:261
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:318
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:363
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:409
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:600
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:640
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:678
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:717
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:757
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:801
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:840
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:879
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:917
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:955
+p	../spyquiz-save	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:998
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1037
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1078
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1167
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1205
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1245
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1285
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1323
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1361
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1399
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1437
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1475
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1513
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:260
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:317
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:362
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:408
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:599
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:639
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:677
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:716
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:756
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:800
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:839
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:878
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:916
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:954
+p	../spyquiz-save	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:997
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1039
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1080
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1169
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1207
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1247
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1287
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1325
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1363
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1401
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1439
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1477
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:1515
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:262
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:319
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:364
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:410
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:601
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:641
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:679
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:718
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:758
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:802
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:841
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:880
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:918
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:956
+p	../spyquiz-save	/^			p = p.hexdigest()$/;"	kind:variable	line:999
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1033
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1074
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1163
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1201
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1241
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1281
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1319
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1357
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1395
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1433
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1471
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:1509
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:261
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:318
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:363
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:409
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:595
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:635
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:673
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:712
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:752
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:796
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:835
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:874
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:912
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:950
+p	../spyquiz.py	/^			p = hashlib.sha512(p.encode('utf-8'))$/;"	kind:variable	line:993
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1032
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1073
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1162
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1200
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1240
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1280
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1318
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1356
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1394
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1432
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1470
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:1508
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:260
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:317
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:362
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:408
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:594
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:634
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:672
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:711
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:751
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:795
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:834
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:873
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:911
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:949
+p	../spyquiz.py	/^			p = input("\\n\\033[1;36mResposta: \\033[1;m")$/;"	kind:variable	line:992
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1034
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1075
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1164
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1202
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1242
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1282
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1320
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1358
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1396
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1434
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1472
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:1510
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:262
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:319
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:364
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:410
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:596
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:636
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:674
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:713
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:753
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:797
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:836
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:875
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:913
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:951
+p	../spyquiz.py	/^			p = p.hexdigest()$/;"	kind:variable	line:994
+python_version	../spyquiz-save	/^from platform import python_version$/;"	kind:namespace	line:13
+python_version	../spyquiz.py	/^from platform import python_version$/;"	kind:namespace	line:13
+q	../spyquiz-save	/^			q = "0ceeb7a66858efeb21bfb43f5b44d79420d443c28b8cc48c522c981e5ac98d47202add62649719d1307c5baa44a6de4c4b6bcaeb1875a7bd94854b1810125502" #metasploit.php$/;"	kind:variable	line:411
+q	../spyquiz-save	/^			q = "1d427a35aedcdc4fcf5bb729d46a00c3ce5d7832640fcfe70d97a84dc22fc2d53e35571a8fbf6085941e73b5fbd7af06d7c289a35fac59f1d62374cc442e3358" #base64-decode-successful$/;"	kind:variable	line:680
+q	../spyquiz-save	/^			q = "211824f7f2736ce7e4acfa07649561188fbd0c39de4f5fd20483c6bb15f327146086b62edefb8e7213b2a2eda07720786b4587e97856c22904f7f175b1e40fbe" #AO44F$/;"	kind:variable	line:759
+q	../spyquiz-save	/^			q = "2c0f3ada9e5d314d9c5a37dc638a6df186882c492c179ea746b63d053a7cef558b2ae3876eff556c82fe2c0ce232c8b576b52b4efcd6209c1f35ff49c2825e58" #spyquizesteganografia$/;"	kind:variable	line:602
+q	../spyquiz-save	/^			q = "3250d88f8bd55e62ae3f769b9bdce1854bac2f645da0a982e6c68e2884c87b2b7d0bf62da7c3b21aa4d426d6d5223c111646f05f4fbdc7a4b6fafe1b6ad25823" #Penetration Tester's$/;"	kind:variable	line:320
+q	../spyquiz-save	/^			q = "3aa3c49aa5bd035ced20abdc76c69115d650bb79bed7310ebdc4a5af75910bfa5fd2f687118821b533b39d3c680530ef77d0c1aea1c9ea3d1e0c74c67b0d8f4b" #thething$/;"	kind:variable	line:1402
+q	../spyquiz-save	/^			q = "3ff7b5f3519791e03cbfde2c667189e32b5a1de1df7781dc6a99110621b311f94a0b4fa6c3456e5e60af911fc1d6da18a7e09cf6606a7e4f6ffb8b80c39eae63" #taquente-taquente$/;"	kind:variable	line:1170
+q	../spyquiz-save	/^			q = "4df1510bbaab42cccd08bed15a439bd1baf1aee48dbd5b7165bf4de3e90636778fef155a078cf9b3885c84d0cd2d51a274476f47a2d97017467ee4eca6167c76" #Elliot$/;"	kind:variable	line:1000
+q	../spyquiz-save	/^			q = "5950c237124755f423d01812a1dbe8281513adc0cfe3fa0a0bc984cefb381f7e13f91e8360716ffe78d77aa447c17c98ee77e23e495c496b0c8b8167cb177b9b" #spyquiz$/;"	kind:variable	line:263
+q	../spyquiz-save	/^			q = "66ebd76cff37004213b5ffcbd4020c269c27652a133d95bfbcc5c151b38871d0279946470f21ed84513762677404ab4931cd300c761ad9f50a1ce76a40188df1" #inception$/;"	kind:variable	line:1440
+q	../spyquiz-save	/^			q = "723b6efe07b4f91aee5e44b98bdde311537aafee5fb04d26e0578b3270f86b2e642919ca0c5293ebdeb4a9b57443f21c65f9adb0fb11de33ca879f6babc4168d" #superuserfim213.331.452-75$/;"	kind:variable	line:1516
+q	../spyquiz-save	/^			q = "73229a1024cec29476fd179cb89b1abf74d0b6cc028976a1a62cd9477f8bcdb6fca37fa428c5558ecf5218f112cb7ff2b05833c88f4a736a3f8a531a640753ad" #157 143 164 141 154 145 165 155 141 144 154 303 247$/;"	kind:variable	line:881
+q	../spyquiz-save	/^			q = "7986ea8b0a90a4d804bdf5be1dbf20f197594bd265605d0c6122ffc83e365ff93b2bf50532380a1ffd0db37b03ea30f1500b7bc19cb90d5915996cebeb8ab4fc" #Mr.robot$/;"	kind:variable	line:1208
+q	../spyquiz-save	/^			q = "84b214c42250dbcb999167a5aa9f240d805655a8fca7574d7c7e18682e85b0ad0e643ca5a7c3e18871259b69a85519a2d62b9a7d9edc2105139b296bcbe9effe" #-35831733.9519$/;"	kind:variable	line:1040
+q	../spyquiz-save	/^			q = "8c865996b232749856eaaa84beca73f7f7899c0f5b156c1937e5fbe00da2fdc622189f668e55bdced8ed0776e8e2a67635199caabaef9f079c050d617f04ff07" #neverland$/;"	kind:variable	line:1326
+q	../spyquiz-save	/^			q = "96f4aab59ec41e6ccf0f7900110605e1a862ee88cdfe6b15e12f2279802e74825eee87185a2f171eadde5af71edfbcc2bc05de8d307030970ac69496343b27c0" #milleniumfalcon$/;"	kind:variable	line:1288
+q	../spyquiz-save	/^			q = "a5614ff46a800ce96fe21c00173a12006a92653088fc0d354df738da404ddacda51d73d20a135194fafdfa7c9f2e119b0dffe68337733b0bf54838558302dd7e" #74 61 5f 61 63 68 61 6e 64 6f 5f 66 61 63 69 6c 5f 6e 65 5f 6d 6f 6c 65 71 75 65$/;"	kind:variable	line:919
+q	../spyquiz-save	/^			q = "a816208946c8aa49ab6f60afbd372a12ca4d95ac58f22edcb21bc87ad19186569d31610086b626266b18d2426d2705651731771353d8c0e0967955cddc2adc9a" #difficult?$/;"	kind:variable	line:719
+q	../spyquiz-save	/^			q = "a81af4e6fada061924e905358091bca96af72705a2177b78dda9032b75b1668aa1dd09ae0d986c33bd594102a2241933a9594268717869d3d1b0730c52866faf" #6608$/;"	kind:variable	line:803
+q	../spyquiz-save	/^			q = "b2f94334d36dc26df98176c80a9a91678fbf094d8062008625e86f351feac9de953f5c56c54a208ae7c24856846a090ec00eb3b3c44eaad9edd2d54a8c860ac1" #LIPF!$/;"	kind:variable	line:1364
+q	../spyquiz-save	/^			q = "b3efba35d9f9249c2d9bd51311ac60a7d1c9cd46c6aef60b03798f250ae708dfea06ab31d323e274380f5fe7138d01dc651a7bc95cf8d0599fb188e872c88c70" #sup3r-us3r$/;"	kind:variable	line:1248
+q	../spyquiz-save	/^			q = "b3fb9eb1b2749efa02c7d4d94df6f6ee7d2f7492e0482c46e2ee2716fb41de4bb3f4e9ab9e5bbe26ec9b2f34b0801a151e761063599c8904021b7328881e15b8" #HelpHelp!$/;"	kind:variable	line:365
+q	../spyquiz-save	/^			q = "c620998bead50e43a9298325a6fa11518afe66035741b98e34b85d967750f7b12c0d710248cf40943906bb5c0b225fb4b959c59f050f975feadfa3ba9e206df1" #Essa ferramenta vai te ajudar muito ainda - espere so para voce ver$/;"	kind:variable	line:957
+q	../spyquiz-save	/^			q = "cd0eca5dbd9e4d6534854807b48aa1a3acb254031756ce281194228d3c6d892058f150d24b2e4cd643248ca3bb41a136da2109245dae985bd126016759c065db" # #SpyASCII$/;"	kind:variable	line:642
+q	../spyquiz-save	/^			q = "cebfea666f6685057dedccfaa31238068ae56c7e465fec31835d8e320a17caf268f0a303f6d109b7484cbe2522c4806106d589c6b252f4e46a219e5318afaa40" #sdasdasddas$/;"	kind:variable	line:1478
+q	../spyquiz.py	/^			q = "0ceeb7a66858efeb21bfb43f5b44d79420d443c28b8cc48c522c981e5ac98d47202add62649719d1307c5baa44a6de4c4b6bcaeb1875a7bd94854b1810125502" #metasploit.php$/;"	kind:variable	line:411
+q	../spyquiz.py	/^			q = "1d427a35aedcdc4fcf5bb729d46a00c3ce5d7832640fcfe70d97a84dc22fc2d53e35571a8fbf6085941e73b5fbd7af06d7c289a35fac59f1d62374cc442e3358" #base64-decode-successful$/;"	kind:variable	line:675
+q	../spyquiz.py	/^			q = "211824f7f2736ce7e4acfa07649561188fbd0c39de4f5fd20483c6bb15f327146086b62edefb8e7213b2a2eda07720786b4587e97856c22904f7f175b1e40fbe" #AO44F$/;"	kind:variable	line:754
+q	../spyquiz.py	/^			q = "2c0f3ada9e5d314d9c5a37dc638a6df186882c492c179ea746b63d053a7cef558b2ae3876eff556c82fe2c0ce232c8b576b52b4efcd6209c1f35ff49c2825e58" #spyquizesteganografia$/;"	kind:variable	line:597
+q	../spyquiz.py	/^			q = "30161ddbc5c1a80f90e37350b3e0f937902330ed9a4431143dd02690ddfe343eac7abd7066be22959bfeed91870d5ac85f3fe5f89f2d5b87c939f71ae4bbc121" #superuserfim$/;"	kind:variable	line:1511
+q	../spyquiz.py	/^			q = "3250d88f8bd55e62ae3f769b9bdce1854bac2f645da0a982e6c68e2884c87b2b7d0bf62da7c3b21aa4d426d6d5223c111646f05f4fbdc7a4b6fafe1b6ad25823" #Penetration Tester's$/;"	kind:variable	line:320
+q	../spyquiz.py	/^			q = "3aa3c49aa5bd035ced20abdc76c69115d650bb79bed7310ebdc4a5af75910bfa5fd2f687118821b533b39d3c680530ef77d0c1aea1c9ea3d1e0c74c67b0d8f4b" #thething$/;"	kind:variable	line:1397
+q	../spyquiz.py	/^			q = "3ff7b5f3519791e03cbfde2c667189e32b5a1de1df7781dc6a99110621b311f94a0b4fa6c3456e5e60af911fc1d6da18a7e09cf6606a7e4f6ffb8b80c39eae63" #taquente-taquente$/;"	kind:variable	line:1165
+q	../spyquiz.py	/^			q = "4df1510bbaab42cccd08bed15a439bd1baf1aee48dbd5b7165bf4de3e90636778fef155a078cf9b3885c84d0cd2d51a274476f47a2d97017467ee4eca6167c76" #Elliot$/;"	kind:variable	line:995
+q	../spyquiz.py	/^			q = "5950c237124755f423d01812a1dbe8281513adc0cfe3fa0a0bc984cefb381f7e13f91e8360716ffe78d77aa447c17c98ee77e23e495c496b0c8b8167cb177b9b" #spyquiz$/;"	kind:variable	line:263
+q	../spyquiz.py	/^			q = "66ebd76cff37004213b5ffcbd4020c269c27652a133d95bfbcc5c151b38871d0279946470f21ed84513762677404ab4931cd300c761ad9f50a1ce76a40188df1" #inception$/;"	kind:variable	line:1435
+q	../spyquiz.py	/^			q = "73229a1024cec29476fd179cb89b1abf74d0b6cc028976a1a62cd9477f8bcdb6fca37fa428c5558ecf5218f112cb7ff2b05833c88f4a736a3f8a531a640753ad" #157 143 164 141 154 145 165 155 141 144 154 303 247$/;"	kind:variable	line:876
+q	../spyquiz.py	/^			q = "7986ea8b0a90a4d804bdf5be1dbf20f197594bd265605d0c6122ffc83e365ff93b2bf50532380a1ffd0db37b03ea30f1500b7bc19cb90d5915996cebeb8ab4fc" #Mr.robot$/;"	kind:variable	line:1203
+q	../spyquiz.py	/^			q = "84b214c42250dbcb999167a5aa9f240d805655a8fca7574d7c7e18682e85b0ad0e643ca5a7c3e18871259b69a85519a2d62b9a7d9edc2105139b296bcbe9effe" #-35831733.9519$/;"	kind:variable	line:1035
+q	../spyquiz.py	/^			q = "8c865996b232749856eaaa84beca73f7f7899c0f5b156c1937e5fbe00da2fdc622189f668e55bdced8ed0776e8e2a67635199caabaef9f079c050d617f04ff07" #neverland$/;"	kind:variable	line:1321
+q	../spyquiz.py	/^			q = "96f4aab59ec41e6ccf0f7900110605e1a862ee88cdfe6b15e12f2279802e74825eee87185a2f171eadde5af71edfbcc2bc05de8d307030970ac69496343b27c0" #milleniumfalcon$/;"	kind:variable	line:1283
+q	../spyquiz.py	/^			q = "a5614ff46a800ce96fe21c00173a12006a92653088fc0d354df738da404ddacda51d73d20a135194fafdfa7c9f2e119b0dffe68337733b0bf54838558302dd7e" #74 61 5f 61 63 68 61 6e 64 6f 5f 66 61 63 69 6c 5f 6e 65 5f 6d 6f 6c 65 71 75 65$/;"	kind:variable	line:914
+q	../spyquiz.py	/^			q = "a816208946c8aa49ab6f60afbd372a12ca4d95ac58f22edcb21bc87ad19186569d31610086b626266b18d2426d2705651731771353d8c0e0967955cddc2adc9a" #difficult?$/;"	kind:variable	line:714
+q	../spyquiz.py	/^			q = "a81af4e6fada061924e905358091bca96af72705a2177b78dda9032b75b1668aa1dd09ae0d986c33bd594102a2241933a9594268717869d3d1b0730c52866faf" #6608$/;"	kind:variable	line:798
+q	../spyquiz.py	/^			q = "b2f94334d36dc26df98176c80a9a91678fbf094d8062008625e86f351feac9de953f5c56c54a208ae7c24856846a090ec00eb3b3c44eaad9edd2d54a8c860ac1" #LIPF!$/;"	kind:variable	line:1359
+q	../spyquiz.py	/^			q = "b3efba35d9f9249c2d9bd51311ac60a7d1c9cd46c6aef60b03798f250ae708dfea06ab31d323e274380f5fe7138d01dc651a7bc95cf8d0599fb188e872c88c70" #sup3r-us3r$/;"	kind:variable	line:1243
+q	../spyquiz.py	/^			q = "b3fb9eb1b2749efa02c7d4d94df6f6ee7d2f7492e0482c46e2ee2716fb41de4bb3f4e9ab9e5bbe26ec9b2f34b0801a151e761063599c8904021b7328881e15b8" #HelpHelp!$/;"	kind:variable	line:365
+q	../spyquiz.py	/^			q = "c620998bead50e43a9298325a6fa11518afe66035741b98e34b85d967750f7b12c0d710248cf40943906bb5c0b225fb4b959c59f050f975feadfa3ba9e206df1" #Essa ferramenta vai te ajudar muito ainda - espere so para voce ver$/;"	kind:variable	line:952
+q	../spyquiz.py	/^			q = "cd0eca5dbd9e4d6534854807b48aa1a3acb254031756ce281194228d3c6d892058f150d24b2e4cd643248ca3bb41a136da2109245dae985bd126016759c065db" # #SpyASCII$/;"	kind:variable	line:637
+q	../spyquiz.py	/^			q = "cebfea666f6685057dedccfaa31238068ae56c7e465fec31835d8e320a17caf268f0a303f6d109b7484cbe2522c4806106d589c6b252f4e46a219e5318afaa40" #sdasdasddas$/;"	kind:variable	line:1473
+q1	../spyquiz-save	/^			q1 = "5667ae23cdbefe166f2e06d442375516cfaaad6aa1363f941309ec1aa1d130bfb33a32a5419a9093ab037881016f66c6796f16f4a2d5be6fb647aa9a56dec303" #tecnologia$/;"	kind:variable	line:560
+q1	../spyquiz-save	/^			q1 = "c7809fd363e6dc44fb735fd086ea623fae16762c79d4c810e5d9fc1d7514b5d1ed1f646c042f3cd131fe90cd774b029e7a64904a969cd77c0dcb9e58e4134630" #Spy:D$/;"	kind:variable	line:1129
+q1	../spyquiz-save	/^			q1 = "e59d0329d6c9e23abc8b287107ddc9281defff1af776133ed618859da59b63c943b019f7603d8344d8eb2d36851234a59c75afa70c1d317fd7676c22e3f5c71f" #01100101 01101101 01100010 01101001 01101110 01100001 01110010 01101001 01101111$/;"	kind:variable	line:842
+q1	../spyquiz-save	/^			q1 = "f30c7b68f3b8624dc10080a80f1dde2e68643bf7d47dc75ec71e5980178b91ffa74ba53e1c0b26bbacc8130ca594787a697ba2eb33d748db89df78aa941d1d79" #MORSECODENEXTLEVEL$/;"	kind:variable	line:1081
+q1	../spyquiz.py	/^			q1 = "5667ae23cdbefe166f2e06d442375516cfaaad6aa1363f941309ec1aa1d130bfb33a32a5419a9093ab037881016f66c6796f16f4a2d5be6fb647aa9a56dec303" #tecnologia$/;"	kind:variable	line:555
+q1	../spyquiz.py	/^			q1 = "c7809fd363e6dc44fb735fd086ea623fae16762c79d4c810e5d9fc1d7514b5d1ed1f646c042f3cd131fe90cd774b029e7a64904a969cd77c0dcb9e58e4134630" #Spy:D$/;"	kind:variable	line:1124
+q1	../spyquiz.py	/^			q1 = "e59d0329d6c9e23abc8b287107ddc9281defff1af776133ed618859da59b63c943b019f7603d8344d8eb2d36851234a59c75afa70c1d317fd7676c22e3f5c71f" #01100101 01101101 01100010 01101001 01101110 01100001 01110010 01101001 01101111$/;"	kind:variable	line:837
+q1	../spyquiz.py	/^			q1 = "f30c7b68f3b8624dc10080a80f1dde2e68643bf7d47dc75ec71e5980178b91ffa74ba53e1c0b26bbacc8130ca594787a697ba2eb33d748db89df78aa941d1d79" #MORSECODENEXTLEVEL$/;"	kind:variable	line:1076
+q2	../spyquiz-save	/^			q2 = "452f7d4966a7815f665b4f97204331e114063251ef90ac4c19732fbd54977a5c1a159b04c903e918c755bbc475ab4acf239f9e1ee8ce801329b878c53229bd41" #011001010110110101100010011010010110111001100001011100100110100101101111$/;"	kind:variable	line:843
+q2	../spyquiz-save	/^			q2 = "497fe595951961337b77f1188333992ea20fe1c0faf1fdfe484613e0462b343fdea3d3752489b1392cff0e38310aa9133c4de9c2651bef731fec59a8a2f0a107" #Quiz!$/;"	kind:variable	line:1130
+q2	../spyquiz-save	/^			q2 = "985aa195c09fb7d64a4bb24cfe51fb1f13ebc444c494e765ee99d6c3ef46557c757787f8f5a6e0260d2e0e846d263fbfbe1311c884bb0bf9792f8778a4434327" #hacker$/;"	kind:variable	line:561
+q2	../spyquiz-save	/^			q2 = "b437f52e979bb57f95f5a67b68d604e6b83d972ba476f95ea0a483c0631ccfa535ca3761cb88f427b5cbcae902401c33d3f68f27b1c8d80523f0fd57fcc30302" #morsecodenextlevel$/;"	kind:variable	line:1082
+q2	../spyquiz.py	/^			q2 = "452f7d4966a7815f665b4f97204331e114063251ef90ac4c19732fbd54977a5c1a159b04c903e918c755bbc475ab4acf239f9e1ee8ce801329b878c53229bd41" #011001010110110101100010011010010110111001100001011100100110100101101111$/;"	kind:variable	line:838
+q2	../spyquiz.py	/^			q2 = "497fe595951961337b77f1188333992ea20fe1c0faf1fdfe484613e0462b343fdea3d3752489b1392cff0e38310aa9133c4de9c2651bef731fec59a8a2f0a107" #Quiz!$/;"	kind:variable	line:1125
+q2	../spyquiz.py	/^			q2 = "985aa195c09fb7d64a4bb24cfe51fb1f13ebc444c494e765ee99d6c3ef46557c757787f8f5a6e0260d2e0e846d263fbfbe1311c884bb0bf9792f8778a4434327" #hacker$/;"	kind:variable	line:556
+q2	../spyquiz.py	/^			q2 = "b437f52e979bb57f95f5a67b68d604e6b83d972ba476f95ea0a483c0631ccfa535ca3761cb88f427b5cbcae902401c33d3f68f27b1c8d80523f0fd57fcc30302" #morsecodenextlevel$/;"	kind:variable	line:1077
+responder	../spyquiz-save	/^			responder = int(input("\\n\\033[1;36mColoque a quantidade de senhas que você deseja importar a sua wordlist (ex: 5):\\033[1;m "))$/;"	kind:variable	line:469
+responder	../spyquiz.py	/^			responder = int(input("\\n\\033[1;36mColoque a quantidade de senhas que você deseja importar a sua wordlist (ex: 5):\\033[1;m "))$/;"	kind:variable	line:469
+senha	../spyquiz-save	/^			senha = hashlib.sha512(senha.encode('utf-8'))$/;"	kind:variable	line:1127
+senha	../spyquiz-save	/^			senha = hashlib.sha512(senha.encode('utf-8'))$/;"	kind:variable	line:558
+senha	../spyquiz-save	/^			senha = input("\\033[1;32m[*] Senha: \\033[1;m")$/;"	kind:variable	line:1126
+senha	../spyquiz-save	/^			senha = input("\\033[1;32m[*] Senha: \\033[1;m")$/;"	kind:variable	line:557
+senha	../spyquiz-save	/^			senha = senha.hexdigest()$/;"	kind:variable	line:1128
+senha	../spyquiz-save	/^			senha = senha.hexdigest()$/;"	kind:variable	line:559
+senha	../spyquiz.py	/^			senha = hashlib.sha512(senha.encode('utf-8'))$/;"	kind:variable	line:1122
+senha	../spyquiz.py	/^			senha = hashlib.sha512(senha.encode('utf-8'))$/;"	kind:variable	line:553
+senha	../spyquiz.py	/^			senha = input("\\033[1;32m[*] Senha: \\033[1;m")$/;"	kind:variable	line:1121
+senha	../spyquiz.py	/^			senha = input("\\033[1;32m[*] Senha: \\033[1;m")$/;"	kind:variable	line:552
+senha	../spyquiz.py	/^			senha = senha.hexdigest()$/;"	kind:variable	line:1123
+senha	../spyquiz.py	/^			senha = senha.hexdigest()$/;"	kind:variable	line:554
+sleep	../url.py	/^from time import sleep$/;"	kind:namespace	line:4
+spyquiz-save	../spyquiz-save	1;"	kind:file	line:1
+spyquiz.py	../spyquiz.py	1;"	kind:file	line:1
+sys	../spyquiz-save	/^import sys$/;"	kind:namespace	line:11
+sys	../spyquiz.py	/^import sys$/;"	kind:namespace	line:11
+url	../url.py	/^    url = "https:\/\/sup3r-us3r.github.io\/files\/niveis\/nivel2.txt"$/;"	kind:variable	line:26
+url.py	../url.py	1;"	kind:file	line:1
+urllib	../url.py	/^import urllib$/;"	kind:namespace	line:5
+usuario	../spyquiz-save	/^	usuario = input("\\033[1;32m▬▶\\033[1;m  ").upper()$/;"	kind:variable	line:33
+usuario	../spyquiz.py	/^	usuario = input("\\033[1;32m▬▶\\033[1;m  ").upper()$/;"	kind:variable	line:33
+versao	../spyquiz-save	/^	versao = python_version()$/;"	kind:variable	line:20
+versao	../spyquiz.py	/^	versao = python_version()$/;"	kind:variable	line:20
+x	../url.py	/^        x = urllib.urlopen(url)$/;"	kind:variable	line:33

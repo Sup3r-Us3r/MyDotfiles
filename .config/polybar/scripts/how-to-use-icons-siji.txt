@@ -1,0 +1,3 @@
+./view             # para ver a lista completa de ícones
+
+echo -e "\ue00e"   # \u + os últimos 4 digitos do caracter do ícone

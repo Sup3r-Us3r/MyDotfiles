@@ -77,8 +77,3 @@ _start_session() {
   esac
 }
 _start_session "$@"
-
-
-
-
-

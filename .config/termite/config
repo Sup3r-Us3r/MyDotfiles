@@ -1,4 +1,3 @@
-
 [options]
     resize_grip = false
     scroll_on_output = false
@@ -29,12 +28,10 @@
     # still need patches for mouse/title support
     term = screen-256color
 
-
 [colors]
     foreground = #f5f2df
     background =  #161616
     cursor = #AE81FF
-  
 
 #black
 color0 = #393939

@@ -5,22 +5,23 @@ export ZSH=/home/ghost/.oh-my-zsh
 ZSH_THEME="agnoster"
 
 # PLUGINS
-plugins=(git)
+# PATH CUSTOM PLUGINS: ~/.oh-my-zsh/custom/plugins/
+plugins=(git zsh-syntax-highlighting)
 
 # RELOAD CONFIG
 source $ZSH/oh-my-zsh.sh
 
 # SYNTAX-HIGHLIGHTING
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-setopt nohashdirs
-setopt completealiases
-setopt INC_APPEND_HISTORY
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_IGNORE_DUPS
-setopt HIST_IGNORE_SPACE
-setopt HIST_EXPIRE_DUPS_FIRST
-setopt HIST_REDUCE_BLANKS
-setopt HIST_VERIFY
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#setopt nohashdirs
+#setopt completealiases
+#setopt INC_APPEND_HISTORY
+#setopt HIST_IGNORE_ALL_DUPS
+#setopt HIST_IGNORE_DUPS
+#setopt HIST_IGNORE_SPACE
+#setopt HIST_EXPIRE_DUPS_FIRST
+#setopt HIST_REDUCE_BLANKS
+#setopt HIST_VERIFY
 
 # MY ALIASES
 alias pac="sudo pacman -S"

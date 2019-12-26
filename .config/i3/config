@@ -91,7 +91,8 @@ bindsym $mod+F6 exec xbacklight -inc 10
 #exec --no-startup-id wal -i ~/Imagens/Wallpaper167.jpg
 exec --no-startup-id feh --bg-scale ~/Imagens/Wallpaper152.png &
 exec --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id compton --config ~/.config/compton.conf &
+#exec --no-startup-id compton --config ~/.config/compton.conf &
+exec --no-startup-id picom --config ~/.config/picom/picom.conf &
 
 ##======================================================================================
 ##======================================================================================

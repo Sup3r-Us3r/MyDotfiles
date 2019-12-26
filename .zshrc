@@ -27,14 +27,14 @@ source $ZSH/oh-my-zsh.sh
 alias pac="sudo pacman -S"
 alias psyu="sudo pacman -Syyu --noconfirm"
 alias pacr="sudo pacman -Rnsc"
-alias paco="sudo pacman -Sc && sudo pacman-optimize"
+alias paco="sudo pacman -Sc"
 alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep "
 alias cleaning="sudo rm -rf /var/cache/pacman/pkg/*.*"
 alias weather="curl http://wttr.in/itabira"
 alias sf="screenfetch | lolcat"
 alias nf="neofetch --w3m ~/Imagens/logos/razer1.png --size 331px --loop --colors 7 2 7 2"
 alias ufetch="~/scripts/ufetch-arch.sh"
-alias infosystem="~/Documentos/info-i3.sh"
+alias infosystem="~/scripts/info-i3.sh"
 alias q="exit"
 
 # PYWAL

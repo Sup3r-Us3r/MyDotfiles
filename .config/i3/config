@@ -89,9 +89,9 @@ bindsym $mod+F6 exec xbacklight -inc 10
 #exec --no-startup-id conky --pause 5
 #exec --no-startup-id mpd
 #exec --no-startup-id wal -i ~/Imagens/Wallpaper167.jpg
-feh --bg-scale ~/Imagens/Wallpaper152.png &
+exec --no-startup-id feh --bg-scale ~/Imagens/Wallpaper152.png &
 exec --no-startup-id $HOME/.config/polybar/launch.sh
-compton --config ~/.config/compton.conf &
+exec --no-startup-id compton --config ~/.config/compton.conf &
 
 ##======================================================================================
 ##======================================================================================
@@ -282,6 +282,7 @@ bindsym $mod+Shift+c reload
 ##======================================================================================
 ##======================================================================================
 # RESTART I3WM
+
 bindsym $mod+Shift+r restart
 
 ##======================================================================================
@@ -323,6 +324,7 @@ bindsym $mod+r mode "resize"
 ##======================================================================================
 # BAR SETTINGS
 
+#
 #bar {
 #        #status_command i3status
 #        status_command i3blocks -c ~/.config/i3/i3blocks.conf
@@ -350,6 +352,7 @@ bindsym $mod+r mode "resize"
 #                        urgent_workspace   #7E1919 #770000 #eeeeee
 #	}
 #}
+#
 
 ##======================================================================================
 ##======================================================================================

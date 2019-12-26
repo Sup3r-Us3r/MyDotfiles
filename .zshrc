@@ -33,6 +33,7 @@ alias cleaning="sudo rm -rf /var/cache/pacman/pkg/*.*"
 alias weather="curl http://wttr.in/itabira"
 alias sf="screenfetch | lolcat"
 alias nf="neofetch --w3m ~/Imagens/logos/razer1.png --size 331px --loop --colors 7 2 7 2"
+alias ufetch="~/scripts/ufetch-arch.sh"
 alias infosystem="~/Documentos/info-i3.sh"
 alias q="exit"
 

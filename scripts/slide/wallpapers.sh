@@ -1,7 +1,7 @@
 #!/bin/bash
 
 shopt -s nullglob
-cd ~/Imagens/slide/
+cd ~/scripts/slide/
 
 while true; do
 	files=()

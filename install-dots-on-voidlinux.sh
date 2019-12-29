@@ -7,6 +7,7 @@ readonly PKGS_XBPS=(
     picom
     lxterminal
     zsh
+    curl
     feh
     nautilus
     leafpad
@@ -18,19 +19,20 @@ readonly PKGS_XBPS=(
     dejavu-fonts-ttf font-inconsolata-otf font-fantasque-sans-ttf font-Siji
     xdg-user-dirs xdg-user-dirs-gtk)
 
-readonly PKGS_XBPSSRC=()
+#readonly PKGS_XBPSSRC=()
 
 function install_pkgs_xbps(){
     for i in "${PKGS_XBPS[@]}"; do
-        sudo xbps-install ${i}
+        sudo xbps-install -S ${i}
     done
 }
 
-function install_pkgs_xbpssrc(){}
+#function install_pkgs_xbpssrc(){}
 
 function install_powerline_fonts(){
     clear
-    echo "INSTALANDO FONTES POWERLINE\n"
+    echo -e "INSTALANDO FONTES POWERLINE\n"
+    sleep 3
     cd $HOME
     sudo rm -rf fonts
     git clone https://github.com/powerline/fonts.git
@@ -39,7 +41,9 @@ function install_powerline_fonts(){
 }
 
 function install_dotfiles(){
-    echo "PREPARANDO AMBIENTE PARA AS DOTFILES\n"
+    clear
+    echo -e "PREPARANDO AMBIENTE PARA AS DOTFILES\n"
+    sleep 3
     cd $HOME
     xdg-user-dirs-update
     xdg-user-dirs-gtk-update
@@ -47,68 +51,82 @@ function install_dotfiles(){
     #git clone https://github.com/Sup3r-Us3r/MyDotfiles.git
     cd MyDotfiles
 
-    echo "\nINSTALANDO CONFIGURAÇÃO DO I3WM\n"
+    echo -e "\nINSTALANDO CONFIGURAÇÃO DO I3WM\n"
+    sleep 3
     sudo rm -rf $HOME/.config/i3
     mkdir -p $HOME/.config/i3
     cp -r .config/i3 $HOME/.config/i3
 
-    echo "\nINSTALANDO CONFIGURAÇÃO DO POLYBAR\n"
+    echo -e "\nINSTALANDO CONFIGURAÇÃO DO POLYBAR\n"
+    sleep 3
     sudo rm -rf $HOME/.config/polybar
     mkdir -p $HOME/.config/polybar
     cp -r .config/polybar $HOME/.config/polybar
 
-    echo "\nINSTALANDO CONFIGURAÇÃO DO PICOM\n"
+    echo -e "\nINSTALANDO CONFIGURAÇÃO DO PICOM\n"
+    sleep 3
     sudo rm -rf $HOME/.config/picom
     mkdir -p $HOME/.config/picom
     cp -r .config/picom $HOME/.config/picom
 
-    echo "\nINSTALANDO CONFIGURAÇÃO DO ROFI\n"
+    echo -e "\nINSTALANDO CONFIGURAÇÃO DO ROFI\n"
+    sleep 3
     sudo rm -rf $HOME/.config/rofi
     mkdir -p $HOME/.config/rofi
     cp -r .config/rofi $HOME/.config/rofi
     sudo cp $HOME/.config/rofi/usr/share/rofi/themes/sup3r-us3r-theme.rasi /usr/share/rofi/themes/sup3r-us3r-theme.rasi
 
-    echo "\nINSTALANDO CONFIGURAÇÃO DO LXTERMINAL\n"
+    echo -e "\nINSTALANDO CONFIGURAÇÃO DO LXTERMINAL\n"
+    sleep 3
     sudo rm -rf $HOME/.config/lxterminal
     mkdir -p $HOME/.config/lxterminal
     cp -r .config/lxterminal $HOME/.config/lxterminal
 
-    echo "\nINSTALANDO CONFIGURAÇÃO DO .XINITRC\n"
+    echo -e "\nINSTALANDO CONFIGURAÇÃO DO .XINITRC\n"
+    sleep 3
     sudo rm -rf $HOME/.xinitrc
     cp .xinitrc $HOME/.xinitrc
 
-    echo "\nINSTALANDO SCRIPTS DE USO GERAL\n"
+    echo -e "\nINSTALANDO SCRIPTS DE USO GERAL\n"
+    sleep 3
     sudo rm -rf $HOME/scripts
     cp -r scripts $HOME/scripts
 
-    echo "\nINSTALANDO TEMA GTK\n"
+    echo -e "\nINSTALANDO TEMA GTK\n"
+    sleep 3
     sudo rm -rf /usr/share/themes/Sweet-Dark
     tar -Jxxvf .themes/Sweet-Dark.tar.xz
     sudo mv Sweet-Dark /usr/share/themes
 
-    echo "\nINSTALANDO TEMA DE ÍCONES\n"
+    echo -e "\nINSTALANDO TEMA DE ÍCONES\n"
+    sleep 3
     sudo rm -rf /usr/share/icons/Numix-uTouch
     tar -xf .icons/Numix-uTouch.tar.gz
     sudo mv Numix-uTouch /usr/share/icons
 
-    echo "\nINSTALANDO TEMA DE CURSOR\n"
+    echo -e "\nINSTALANDO TEMA DE CURSOR\n"
+    sleep 3
     sudo rm -rf /usr/share/icons/ComixCursors*
     tar -Jxxvf .icons/xcursor-comix-0.9.0-3-any.pkg.tar.xz
     sudo mv usr/share/icons/ComixCursors* /usr/share/icons
     sudo rm -rf usr/share/icons
 
-    echo "\nSETANDO LAYOUT BR-ABNT2\n"
+    echo -e "\nSETANDO LAYOUT BR-ABNT2\n"
+    sleep 3
     sudo rm -rf /etc/X11/xorg.conf.d/10-keyboard.conf
+    sudo mkdir -p /etc/X11/xorg.conf.d
     sudo cp etc/X11/xorg.conf.d/10-keyboard.conf /etc/X11/xorg.conf.d/10-keyboard.conf
 }
 
 function config_setup(){
     clear
-    echo "SETANDO 100% DE VOLUME\n"
+    echo -e "SETANDO 100% DE VOLUME\n"
+    sleep 3
     amixer sset 'Master' 100%
     sudo alsactl store
 
-    echo "\nSETANDO INTERFACE DE REDE WIRELESS NO POLYBAR\n"
+    echo -e "\nSETANDO INTERFACE DE REDE WIRELESS NO POLYBAR\n"
+    sleep 3
     interfaceWireless=`ip -o addr show scope global | awk '{split($4, a, "/"); print $2}'`
     sed -i "s/wlp0s26u1u4/$interfaceWireless/g" $HOME/.config/polybar/config
     sed -i "s/wlp0s26u1u4/$interfaceWireless/g" $HOME/.config/polybar/backup/config
@@ -116,18 +134,20 @@ function config_setup(){
 
 function oh-my-zsh(){
     clear
-    echo "INSTALANDO OH-MY-ZSH\n"
+    echo -e "INSTALANDO OH-MY-ZSH\n"
+    sleep 3
     sudo rm -rf $HOME/.oh-my-zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins
-    cd $HOME/Downloads/MyDotfiles
-    cp .zshrc $HOME/.zshrc
-    source ~/.zshrc
+    #git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins
+    #cd $HOME/Downloads/MyDotfiles
+    #cp .zshrc $HOME/.zshrc
+    #source ~/.zshrc
 }
 
 function config_system(){
     clear
-    echo "CONFIGURANDO GIT\n"
+    echo -e "CONFIGURANDO GIT\n"
+    sleep 3
     cd $HOME
     git config --global user.email "pc.gam3rs.tuto@gmail.com"
     git config --global user.name "Sup3r-Us3r"

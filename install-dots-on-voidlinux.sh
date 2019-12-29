@@ -31,6 +31,7 @@ function install_pkgs_xbpssrc(){}
 function install_powerline_fonts(){
     clear
     echo "INSTALANDO FONTES POWERLINE\n"
+    cd $HOME
     sudo rm -rf fonts
     git clone https://github.com/powerline/fonts.git
     sh fonts/install.sh
@@ -43,7 +44,7 @@ function install_dotfiles(){
     xdg-user-dirs-update
     xdg-user-dirs-gtk-update
     cd $HOME/Downloads
-    git clone https://github.com/Sup3r-Us3r/MyDotfiles.git
+    #git clone https://github.com/Sup3r-Us3r/MyDotfiles.git
     cd MyDotfiles
 
     echo "\nINSTALANDO CONFIGURAÇÃO DO I3WM\n"

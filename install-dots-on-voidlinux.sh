@@ -55,32 +55,32 @@ function install_dotfiles(){
     sleep 3
     sudo rm -rf $HOME/.config/i3
     mkdir -p $HOME/.config/i3
-    cp -r .config/i3 $HOME/.config/i3
+    cp -r .config/i3 $HOME/.config
 
     echo -e "\nINSTALANDO CONFIGURAÇÃO DO POLYBAR\n"
     sleep 3
     sudo rm -rf $HOME/.config/polybar
     mkdir -p $HOME/.config/polybar
-    cp -r .config/polybar $HOME/.config/polybar
+    cp -r .config/polybar $HOME/.config
 
     echo -e "\nINSTALANDO CONFIGURAÇÃO DO PICOM\n"
     sleep 3
     sudo rm -rf $HOME/.config/picom
     mkdir -p $HOME/.config/picom
-    cp -r .config/picom $HOME/.config/picom
+    cp -r .config/picom $HOME/.config
 
     echo -e "\nINSTALANDO CONFIGURAÇÃO DO ROFI\n"
     sleep 3
     sudo rm -rf $HOME/.config/rofi
     mkdir -p $HOME/.config/rofi
-    cp -r .config/rofi $HOME/.config/rofi
+    cp -r .config/rofi $HOME/.config
     sudo cp $HOME/.config/rofi/usr/share/rofi/themes/sup3r-us3r-theme.rasi /usr/share/rofi/themes/sup3r-us3r-theme.rasi
 
     echo -e "\nINSTALANDO CONFIGURAÇÃO DO LXTERMINAL\n"
     sleep 3
     sudo rm -rf $HOME/.config/lxterminal
     mkdir -p $HOME/.config/lxterminal
-    cp -r .config/lxterminal $HOME/.config/lxterminal
+    cp -r .config/lxterminal $HOME/.config
 
     echo -e "\nINSTALANDO CONFIGURAÇÃO DO .XINITRC\n"
     sleep 3
@@ -90,7 +90,7 @@ function install_dotfiles(){
     echo -e "\nINSTALANDO SCRIPTS DE USO GERAL\n"
     sleep 3
     sudo rm -rf $HOME/scripts
-    cp -r scripts $HOME/scripts
+    cp -r scripts $HOME
 
     echo -e "\nINSTALANDO TEMA GTK\n"
     sleep 3
@@ -109,13 +109,13 @@ function install_dotfiles(){
     sudo rm -rf /usr/share/icons/ComixCursors*
     tar -Jxxvf .icons/xcursor-comix-0.9.0-3-any.pkg.tar.xz
     sudo mv usr/share/icons/ComixCursors* /usr/share/icons
-    sudo rm -rf usr/share/icons
+    sudo rm -rf usr
 
     echo -e "\nSETANDO LAYOUT BR-ABNT2\n"
     sleep 3
-    sudo rm -rf /etc/X11/xorg.conf.d/10-keyboard.conf
+    sudo rm -rf /etc/X11/xorg.conf.d
     sudo mkdir -p /etc/X11/xorg.conf.d
-    sudo cp etc/X11/xorg.conf.d/10-keyboard.conf /etc/X11/xorg.conf.d/10-keyboard.conf
+    sudo cp etc/X11/xorg.conf.d/10-keyboard.conf /etc/X11/xorg.conf.d
 }
 
 function config_setup(){

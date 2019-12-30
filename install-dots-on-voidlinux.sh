@@ -74,7 +74,6 @@ function install_dotfiles(){
     sudo rm -rf $HOME/.config/rofi
     mkdir -p $HOME/.config/rofi
     cp -r .config/rofi $HOME/.config
-    sudo cp $HOME/.config/rofi/usr/share/rofi/themes/sup3r-us3r-theme.rasi /usr/share/rofi/themes/sup3r-us3r-theme.rasi
 
     echo -e "\nINSTALANDO CONFIGURAÇÃO DO LXTERMINAL\n"
     sleep 3
@@ -122,7 +121,7 @@ function config_setup(){
     clear
     echo -e "SETANDO 100% DE VOLUME\n"
     sleep 3
-    amixer sset 'Master' 100%
+    amixer sset 'Master' 100% unmute
     sudo alsactl store
 
     echo -e "\nSETANDO INTERFACE DE REDE WIRELESS NO POLYBAR\n"
@@ -130,6 +129,11 @@ function config_setup(){
     interfaceWireless=`ip -o addr show scope global | awk '{split($4, a, "/"); print $2}'`
     sed -i "s/wlp0s26u1u4/$interfaceWireless/g" $HOME/.config/polybar/config
     sed -i "s/wlp0s26u1u4/$interfaceWireless/g" $HOME/.config/polybar/backup/config
+
+    echo -e "\nRENOMEANDO FONTE PARA BARRA POLYBAR\n"
+    sleep 3
+    sed -i "s/xos4 //g" $HOME/.config/polybar/config
+    sed -i "s/xos4 //g" $HOME/.config/polybar/backup/config
 }
 
 function oh-my-zsh(){

@@ -9,4 +9,4 @@ rofi.separator-style:       none
 rofi.hide-scrollbar:        true
 rofi.line-margin:           0
 rofi.font:                  Fantasque Sans Mono 12
-rofi.theme: /usr/share/rofi/themes/sup3r-us3r-theme.rasi
+rofi.theme:                 ~/.config/rofi/sup3r-us3r-theme.rasi

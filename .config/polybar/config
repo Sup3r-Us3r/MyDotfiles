@@ -61,9 +61,9 @@ font-0 = "xos4 Terminess Powerline:pixelsize=10;1"
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = "Siji:pixelsize=10;1"
 
-modules-left = i3 spotify
+modules-left = i3
 modules-center = xwindow
-modules-right = alsa filesystem memory cpu pkg ssid temperature date xkeyboard powermenu
+modules-right = alsa filesystem memory cpu pkg mail ssid temperature date xkeyboard powermenu
 
 ;tray-position = right
 ;tray-padding = 2
@@ -504,7 +504,18 @@ type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
-exec = pacman -Qu | wc -l
+exec = sh ~/.config/polybar/scripts/pkg
+format-prefix-foreground = ${colors.foreground-alt}
+
+;======================================================================================
+;======================================================================================
+
+[module/mail]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = sh ~/.config/polybar/scripts/mail
 format-prefix-foreground = ${colors.foreground-alt}
 
 ;======================================================================================

@@ -11,18 +11,20 @@ readonly PKGS_PACMAN=(
     curl
     feh
     nautilus
-    xdg-user-dirs xdg-user-dirs-gtk
+    xdg-user-dirs xdg-user-dirs-gtk xdg-utils
     leafpad
     lxappearance
     scrot
     git
     lm_sensors
     alsa-utils alsa-lib
+    xorg-server xorg-xprop xorg-xinit xorg-xrandr
     ttf-inconsolata ttf-fantasque-sans-mono)
 
 readonly PKGS_AUR=(
     polybar
-    siji-git)
+    siji-git
+    nvidia-340xx nvidia-340xx-utils lib32-nvidia-340xx-utils)
 
 function install_pkgs_pacman(){
     for i in "${PKGS_PACMAN[@]}"; do
@@ -160,10 +162,10 @@ function oh-my-zsh(){
     sleep 3
     sudo rm -rf $HOME/.oh-my-zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-    #git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins
-    #cd $HOME/Downloads/MyDotfiles
-    #cp .zshrc $HOME/.zshrc
-    #source ~/.zshrc
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+    cd $HOME/Downloads/MyDotfiles
+    cp .zshrc $HOME/.zshrc
+    source ~/.zshrc
 }
 
 function config_system(){
@@ -176,9 +178,9 @@ function config_system(){
 }
 
 install_pkgs_pacman
+install_yay
 install_pkgs_aur
 install_powerline_fonts
-install_yay
 install_dotfiles
 config_setup
 config_system

@@ -19,6 +19,7 @@ readonly PKGS_PACMAN=(
     lm_sensors
     alsa-utils alsa-lib
     xorg-server xorg-xprop xorg-xinit xorg-xrandr
+    numlockx
     ttf-inconsolata ttf-fantasque-sans-mono)
 
 readonly PKGS_AUR=(

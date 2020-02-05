@@ -1,5 +1,5 @@
 # PATH TO YOUR oh-my-zsh INSTALLATION
-export ZSH=/home/ghost/.oh-my-zsh
+export ZSH=/home/$USER/.oh-my-zsh
 
 # ZSH_THEME
 ZSH_THEME="agnoster"
@@ -35,8 +35,15 @@ alias sf="screenfetch | lolcat"
 alias nf="neofetch --w3m ~/Imagens/logos/razer1.png --size 331px --loop --colors 7 2 7 2"
 alias ufetch="~/scripts/ufetch-arch.sh"
 alias infosystem="~/scripts/info-i3.sh"
+alias leafpad="leafpad 2>/dev/null"
+alias postbird="/snap/bin/postbird 2>/dev/null"
 alias q="exit"
 
 # PYWAL
 #export PATH="${PATH}:${HOME}/.local/bin/"
 #cat ~/.cache/wal/sequences
+
+# REACT NATIVE
+export ANDROID_HOME=~/.Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools

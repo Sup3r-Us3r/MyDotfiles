@@ -1,4 +1,0 @@
-Modulos Perl para fb-brute.pl e Slowloris.pl
-
-yaourt -S perl-net-ssleay
-yaourt -S perl-io-socket-ssl 

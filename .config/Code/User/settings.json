@@ -1,0 +1,82 @@
+{
+  // Font family
+  "editor.fontFamily": "'Fantasque Sans Mono', 'Noto Mono', 'Courier New', monospace",
+  // Font size
+  "editor.fontSize": 16.5,
+  // Font ligatures
+  "editor.fontLigatures": true,
+  // Fontmat on save
+  "editor.formatOnSave": true,
+  // Typing limit lines
+  "editor.rulers": [
+    80,
+    120
+  ],
+  // The number of spaces a tab is equal to
+  "editor.tabSize": 2,
+  // Insert spaces when pressing Tab
+  "editor.insertSpaces": true,
+  // Detect identation
+  "editor.detectIndentation": false,
+  // Apply selection to the code line number
+  "editor.renderLineHighlight": "gutter",
+  // Suggestions
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // Terminal font size
+  "terminal.integrated.fontSize": 17,
+  // Compact folder
+  "explorer.compactFolders": false,
+  // Window zoom
+  "window.zoomLevel": 0,
+  // Start with untitled file
+  "workbench.startupEditor": "newUntitledFile",
+  // Theme
+  "workbench.colorTheme": "Dracula",
+  // Icon theme
+  "workbench.iconTheme": "material-icon-theme",
+  // Open new file in new tab
+  "workbench.editor.enablePreview": false,
+  // Ignore confirm delete
+  "explorer.confirmDelete": false,
+  // Recommendation
+  "extensions.ignoreRecommendations": false,
+  // Don't show message
+  "liveServer.settings.donotShowInfoMsg": true,
+  // Emmet working with JSX
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Prevent imports automatically
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  // Show full file path
+  "breadcrumbs.enabled": true,
+  // Tailwindcss autocomplete
+  "tailwindCSS.emmetCompletions": true,
+  // Prettier single quote
+  "prettier.singleQuote": true,
+  // Eslint config
+  "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+}

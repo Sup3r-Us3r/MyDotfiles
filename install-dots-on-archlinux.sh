@@ -147,7 +147,7 @@ function config_setup(){
     clear
     echo -e "SETANDO 100% DE VOLUME\n"
     sleep 3
-    amixer sset 'Master' 100% unmute
+    amixer set 'Master' 100% unmute
     sudo alsactl store
 
     echo -e "\nSETANDO INTERFACE DE REDE WIRELESS NO POLYBAR\n"
@@ -155,6 +155,11 @@ function config_setup(){
     interfaceWireless=`ip -o addr show scope global | awk '{split($4, a, "/"); print $2}'`
     sed -i "s/wlp0s26u1u4/$interfaceWireless/g" $HOME/.config/polybar/config
     sed -i "s/wlp0s26u1u4/$interfaceWireless/g" $HOME/.config/polybar/backup/config
+    
+    echo -e "\nCONFIGURANDO PACMAN.CONF\n"
+    sleep 3
+    sudo sed -i '37iILoveCandy' /etc/pacman.conf
+    sudo sed -i '/Color/,+1 s/^#//' /etc/pacman.conf
 }
 
 function oh-my-zsh(){

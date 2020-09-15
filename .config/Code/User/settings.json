@@ -2,16 +2,19 @@
   // Font family
   "editor.fontFamily": "'Fantasque Sans Mono', 'Noto Mono', 'Courier New', monospace",
   // Font size
-  "editor.fontSize": 16.5,
+  "editor.fontSize": 15.5,
   // Font ligatures
   "editor.fontLigatures": true,
   // Fontmat on save
   "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
   // Typing limit lines
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   // The number of spaces a tab is equal to
   "editor.tabSize": 2,
   // Insert spaces when pressing Tab
@@ -32,7 +35,7 @@
   // Start with untitled file
   "workbench.startupEditor": "newUntitledFile",
   // Theme
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Omni",
   // Icon theme
   "workbench.iconTheme": "material-icon-theme",
   // Open new file in new tab
@@ -79,4 +82,7 @@
       "autoFix": true
     }
   ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

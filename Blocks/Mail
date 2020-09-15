@@ -11,4 +11,3 @@ if [ "$COUNT" != "0" ]; then
       WORD="mails";
    fi
 fi
-

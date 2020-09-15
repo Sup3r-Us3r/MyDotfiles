@@ -11,7 +11,6 @@ calc() {
 	echo "$1" | bc
 }
 
-
 ################################
 # Counts lines in text, accounting for empty values
 #

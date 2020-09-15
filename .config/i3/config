@@ -64,11 +64,8 @@ floating_modifier $mod
 
 bindsym $mod+t exec nautilus
 bindsym $mod+g exec google-chrome-stable
-#bindsym $mod+Shift+p exec deepin-screenshot
-#bindsym $mod+Shift+s exec oblogout &
 bindsym --release Print exec --no-startup-id scrot %Y-%m-%d-%T.png -e 'mv $f ~/Prints/'
-bindsym $mod+Control+l exec /home/$USER/.config/i3/i3lock/i3lock.sh
-bindsym $mod+Control+d exec /home/$USER/Documentos/dzenmpd.sh
+bindsym $mod+Control+l exec ~/.config/i3/i3lock/i3lock.sh
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 #bindsym $mod+d exec dmenu_run -o 0.75 -x 800  -y 500 -w 400 -l 5 -h 16 -i -q -fn 'xos4 Terminess Powerline' -nb '#CCCCCC' -nf '#000000' -sb '#BF474D' -sf '#FFFFFF' -p '>_'
@@ -82,31 +79,28 @@ bindsym $mod+F6 exec xbacklight -inc 10
 ##======================================================================================
 # AUTOSTART
 
-#exec --no-startup-id dropbox
-#exec --no-startup-id xscreensaver -no-splash
 #exec --no-startup-id nitrogen --restore
 #exec --no-startup-id nm-applet &
 #exec --no-startup-id conky --pause 5
 #exec --no-startup-id mpd
-#exec --no-startup-id wal -i ~/Imagens/Wallpaper167.jpg
-exec --no-startup-id feh --bg-scale ~/Imagens/Wallpaper152.png &
-exec --no-startup-id $HOME/.config/polybar/launch.sh
 #exec --no-startup-id compton --config ~/.config/compton.conf &
-exec --no-startup-id picom --config ~/.config/picom/picom.conf &
+#exec --no-startup-id picom --config ~/.config/picom/picom.conf &
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper152.png &
+exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id numlockx on &
 
 ##======================================================================================
 ##======================================================================================
 # MULTIMEDIA KEYS
 
+#bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
+#bindsym XF86AudioNext exec "mpc next"
+#bindsym XF86AudioPrev exec "mpc prev"
 bindsym XF86AudioPlay exec "playerctl play"
 bindsym XF86AudioPause exec "playerctl pause"
 bindsym XF86AudioNext exec "playerctl next"
 bindsym XF86AudioPrev exec "playerctl previous"
 bindsym XF86AudioStop exec "playerctl stop"
-#bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
-#bindsym XF86AudioNext exec "mpc next"
-#bindsym XF86AudioPrev exec "mpc prev"
 bindsym XF86AudioRaiseVolume exec "amixer set Master 5%+"
 bindsym XF86AudioLowerVolume exec "amixer set Master 5%-"
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
@@ -116,7 +110,6 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 ##======================================================================================
 # START A TERMINAL
 
-#bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec termite
 
 ##======================================================================================
@@ -291,33 +284,33 @@ bindsym $mod+Shift+r restart
 ##======================================================================================
 # EXIT I3WM
 
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'DESEJA REALMENTE QUITAR A SESSÃO E IR PARA O X' -b 'SIM' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'CLOSE SESSION' -b 'YES' 'i3-msg exit'"
 
 ##======================================================================================
 ##======================================================================================
 # RESIZE WINDOW
 
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+  # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym ccedilla resize grow width 10 px or 10 ppt
+  # Pressing left will shrink the window’s width.
+  # Pressing right will grow the window’s width.
+  # Pressing up will shrink the window’s height.
+  # Pressing down will grow the window’s height.
+  bindsym j resize shrink width 10 px or 10 ppt
+  bindsym k resize grow height 10 px or 10 ppt
+  bindsym l resize shrink height 10 px or 10 ppt
+  bindsym ccedilla resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+  # same bindings, but for the arrow keys
+  bindsym Left resize shrink width 10 px or 10 ppt
+  bindsym Down resize grow height 10 px or 10 ppt
+  bindsym Up resize shrink height 10 px or 10 ppt
+  bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+  # back to normal: Enter or Escape
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -326,35 +319,33 @@ bindsym $mod+r mode "resize"
 ##======================================================================================
 # BAR SETTINGS
 
-#
 #bar {
-#        #status_command i3status
-#        status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#        #status_command polybar mybar
-#        #status_command yabar ~/.config/yabar/yabar.conf 
-#        position top
-#        #position bottom
-#        height 30
-#        #wheel_up_cmd nop
-#        #wheel_down_cmd nop
-#        #font pango:Terminus,Icons 11.5
-#        font pango:Fantasque Sans Mono 10.3
-#        #font pango:Roboto Mono for Powerline 11
-#        #separator_symbol "."
+#  #status_command i3status
+#  status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#  #status_command polybar mybar
+#  #status_command yabar ~/.config/yabar/yabar.conf 
+#  position top
+#  #position bottom
+#  height 30
+#  #wheel_up_cmd nop
+#  #wheel_down_cmd nop
+#  #font pango:Terminus,Icons 11.5
+#  font pango:Fantasque Sans Mono 10.3
+#  #font pango:Roboto Mono for Powerline 11
+#  #separator_symbol "."
 #
-#        colors {
-#                        separator #6E6E6E
-#                        background #161616
-#                        statusline #FFFFFF
-#                        
-#                        # class            border  backgrd text
-#                        focused_workspace  #eeeeee #161616 #eeeeee
-#                        active_workspace   #565656 #444444 #eeeeee
-#                        inactive_workspace #161616 #161616 #eeeeee
-#                        urgent_workspace   #7E1919 #770000 #eeeeee
-#	}
+#  colors {
+#    separator #6E6E6E
+#    background #161616
+#    statusline #FFFFFF
+#    
+#    # class            border  backgrd text
+#    focused_workspace  #eeeeee #161616 #eeeeee
+#    active_workspace   #565656 #444444 #eeeeee
+#    inactive_workspace #161616 #161616 #eeeeee
+#    urgent_workspace   #7E1919 #770000 #eeeeee
+#  }
 #}
-#
 
 ##======================================================================================
 ##======================================================================================
@@ -372,33 +363,33 @@ set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
 bindsym $mod+Shift+g mode "$mode_gaps"
 
 mode "$mode_gaps" {
-        bindsym o      mode "$mode_gaps_outer"
-        bindsym i      mode "$mode_gaps_inner"
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+  bindsym o      mode "$mode_gaps_outer"
+  bindsym i      mode "$mode_gaps_inner"
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
 }
 
 mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
-        bindsym 0     gaps inner current set 0
+  bindsym plus  gaps inner current plus 5
+  bindsym minus gaps inner current minus 5
+  bindsym 0     gaps inner current set 0
 
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
-        bindsym Shift+0     gaps inner all set 0
+  bindsym Shift+plus  gaps inner all plus 5
+  bindsym Shift+minus gaps inner all minus 5
+  bindsym Shift+0     gaps inner all set 0
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
 }
 mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
-        bindsym 0     gaps outer current set 0
+  bindsym plus  gaps outer current plus 5
+  bindsym minus gaps outer current minus 5
+  bindsym 0     gaps outer current set 0
 
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
-        bindsym Shift+0     gaps outer all set 0
+  bindsym Shift+plus  gaps outer all plus 5
+  bindsym Shift+minus gaps outer all minus 5
+  bindsym Shift+0     gaps outer all set 0
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
 }

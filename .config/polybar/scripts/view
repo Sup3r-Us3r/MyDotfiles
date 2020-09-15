@@ -19,7 +19,7 @@ showfont()
 	xfd_color solarized_dark
 
 	printf "xfd*Background: $xfd_bg\n\
-            xfd*Foreground: $xfd_fg\n" | xrdb -merge
+    xfd*Foreground: $xfd_fg\n" | xrdb -merge
 
 	xfd -rows $rows -columns $cols -fn $font 2>&1 >/dev/null &
 }

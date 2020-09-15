@@ -1,3 +1,11 @@
 #!/bin/bash
 
-ip -4 addr show wlp0s26u1u4 | grep -oP "(?<=inet ).*(?=/)"
+ethernetInterface=`ls /sys/class/net | grep 'e'`
+wirelessInterface=`ls /sys/class/net | grep 'w'`
+
+if [ $wirelessInterface ]
+then
+  ip -4 addr show $wirelessInterface | grep -oP "(?<=inet ).*(?=/)"
+else
+  ip -4 addr show $ethernetInterface | grep -oP "(?<=inet ).*(?=/)"
+fi

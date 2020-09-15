@@ -1,8 +1,4 @@
 #!/bin/sh
-#
-# ufetch-arch - tiny system info for arch
-
-## INFO
 
 # user is already defined
 host="$(hostname)"

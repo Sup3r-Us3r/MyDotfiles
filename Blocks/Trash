@@ -24,8 +24,6 @@ TRASH_COUNT=$(ls -U -1 "${TRASH_DIRECTORY}/files" | wc -l)
 URGENT_VALUE=100
 
 echo "${TRASH_COUNT}"
-echo "${TRASH_COUNT}"
-echo ""
 
 if [[ "${TRASH_COUNT}" -ge "${URGENT_VALUE}" ]]; then
   exit 33

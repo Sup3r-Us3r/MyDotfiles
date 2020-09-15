@@ -29,16 +29,16 @@ cpuspe="`sed -n '/model\ name/s/^.*:\ //p' /proc/cpuinfo | uniq` (x`nproc`)"
 system=`sed 's/\s*[\(\\]\+.*$//' /etc/issue`
 
 if [ -n "$DISPLAY" ]; then
-    wmname=`echo i3`
-    termfn=`echo Roboto Mono for Powerline 12`
-    systfn=`echo Fantasque Sans Mono 12`
+  wmname=`echo i3`
+  termfn=`echo Roboto Mono for Powerline 12`
+  systfn=`echo Fantasque Sans Mono 12`
 else
-    wmname="none"
-    termfn="none"
-    systfn="none"
+  wmname="none"
+  termfn="none"
+  systfn="none"
 fi
 
-pkgnum=`pacman -Q|wc -l`
+pkgnum=`pacman -Q | wc -l`
 birthd=`sed -n '1s/^\[\([0-9-]*\).*$/\1/p' /var/log/pacman.log | tr - .`
 
 cat << EOF

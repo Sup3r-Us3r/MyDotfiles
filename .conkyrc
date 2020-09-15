@@ -35,4 +35,4 @@ TEXT
 ${image /tmp/mpd-track-cover -s 59x61}${offset 64}${mpd_artist} - ${mpd_title}
 ${offset 64}${mpd_bar}
 ${offset 64}${mpd_elapsed}/${mpd_length}
-${exec /home/ghost/.conky-mpd/extract_cover.sh}
+${exec ~/.conky-mpd/extract_cover.sh}

@@ -1,26 +1,16 @@
-                  ####################################################################################################
-                  #                                        Tecmint_monitor.sh                                        #
-                  # Written for Tecmint.com for the post www.tecmint.com/linux-server-health-monitoring-script/      #
-                  # If any bug, report us in the link below                                                          #
-                  # Free to use/edit/distribute the code below by                                                    #
-                  # giving proper credit to Tecmint.com and Author                                                   #
-                  #                                                                                                  #
-                  ####################################################################################################
 #! /bin/bash
-# unset any variable which system may be using
 
-# clear the screen
 clear
 
 unset tecreset os architecture kernelrelease internalip externalip nameserver loadaverage
 
 while getopts iv name
 do
-        case $name in
-          i)iopt=1;;
-          v)vopt=1;;
-          *)echo "Invalid arg";;
-        esac
+  case $name in
+    i)iopt=1;;
+    v)vopt=1;;
+    *)echo "Invalid arg";;
+  esac
 done
 
 if [[ ! -z $iopt ]]
@@ -115,5 +105,3 @@ rm /tmp/osrelease /tmp/who /tmp/ramcache /tmp/diskusage
 }
 fi
 shift $(($OPTIND -1))
-
-

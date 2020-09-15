@@ -1,38 +1,25 @@
-# PATH TO YOUR oh-my-zsh INSTALLATION
+# PATH TO YOUR OH-MY-ZSH INSTALLATION
 export ZSH=/home/$USER/.oh-my-zsh
 
 # ZSH_THEME
 ZSH_THEME="agnoster"
 
 # PLUGINS
-# PATH CUSTOM PLUGINS: ~/.oh-my-zsh/custom/plugins/
+# PATH CUSTOM PLUGINS: ~/.oh-my-zsh/custom/plugins
 plugins=(git zsh-syntax-highlighting)
 
 # RELOAD CONFIG
 source $ZSH/oh-my-zsh.sh
-
-# SYNTAX-HIGHLIGHTING
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#setopt nohashdirs
-#setopt completealiases
-#setopt INC_APPEND_HISTORY
-#setopt HIST_IGNORE_ALL_DUPS
-#setopt HIST_IGNORE_DUPS
-#setopt HIST_IGNORE_SPACE
-#setopt HIST_EXPIRE_DUPS_FIRST
-#setopt HIST_REDUCE_BLANKS
-#setopt HIST_VERIFY
 
 # MY ALIASES
 alias pac="sudo pacman -S"
 alias psyu="sudo pacman -Syyu --noconfirm"
 alias pacr="sudo pacman -Rnsc"
 alias paco="sudo pacman -Sc"
-alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep "
+alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep"
 alias cleaning="sudo rm -rf /var/cache/pacman/pkg/*.*"
 alias weather="curl http://wttr.in/itabira"
 alias sf="screenfetch | lolcat"
-alias nf="neofetch --w3m ~/Imagens/logos/razer1.png --size 331px --loop --colors 7 2 7 2"
 alias ufetch="~/scripts/ufetch-arch.sh"
 alias infosystem="~/scripts/info-i3.sh"
 alias leafpad="leafpad 2>/dev/null"
@@ -43,7 +30,11 @@ alias q="exit"
 #export PATH="${PATH}:${HOME}/.local/bin/"
 #cat ~/.cache/wal/sequences
 
-# REACT NATIVE
+# ANDROID STUDIO
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 export ANDROID_HOME=~/.Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:~/.android-studio/bin

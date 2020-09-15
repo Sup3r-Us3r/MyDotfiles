@@ -1,77 +1,5 @@
 #!/usr/bin/env python
 
-# Try to determine how much RAM is currently being used per program.
-# Note per _program_, not per process. So for example this script
-# will report RAM used by all httpd process together. In detail it reports:
-# sum(private RAM for program processes) + sum(Shared RAM for program processes)
-# The shared RAM is problematic to calculate, and this script automatically
-# selects the most accurate method available for your kernel.
-
-# Licence: LGPLv2
-# Author:  P@draigBrady.com
-# Source:  http://www.pixelbeat.org/scripts/ps_mem.py
-
-# V1.0      06 Jul 2005     Initial release
-# V1.1      11 Aug 2006     root permission required for accuracy
-# V1.2      08 Nov 2006     Add total to output
-#                           Use KiB,MiB,... for units rather than K,M,...
-# V1.3      22 Nov 2006     Ignore shared col from /proc/$pid/statm for
-#                           2.6 kernels up to and including 2.6.9.
-#                           There it represented the total file backed extent
-# V1.4      23 Nov 2006     Remove total from output as it's meaningless
-#                           (the shared values overlap with other programs).
-#                           Display the shared column. This extra info is
-#                           useful, especially as it overlaps between programs.
-# V1.5      26 Mar 2007     Remove redundant recursion from human()
-# V1.6      05 Jun 2007     Also report number of processes with a given name.
-#                           Patch from riccardo.murri@gmail.com
-# V1.7      20 Sep 2007     Use PSS from /proc/$pid/smaps if available, which
-#                           fixes some over-estimation and allows totalling.
-#                           Enumerate the PIDs directly rather than using ps,
-#                           which fixes the possible race between reading
-#                           RSS with ps, and shared memory with this program.
-#                           Also we can show non truncated command names.
-# V1.8      28 Sep 2007     More accurate matching for stats in /proc/$pid/smaps
-#                           as otherwise could match libraries causing a crash.
-#                           Patch from patrice.bouchand.fedora@gmail.com
-# V1.9      20 Feb 2008     Fix invalid values reported when PSS is available.
-#                           Reported by Andrey Borzenkov <arvidjaar@mail.ru>
-# V3.8      17 Jun 2016
-#   http://github.com/pixelb/scripts/commits/master/scripts/ps_mem.py
-
-# Notes:
-#
-# All interpreted programs where the interpreter is started
-# by the shell or with env, will be merged to the interpreter
-# (as that's what's given to exec). For e.g. all python programs
-# starting with "#!/usr/bin/env python" will be grouped under python.
-# You can change this by using the full command line but that will
-# have the undesirable affect of splitting up programs started with
-# differing parameters (for e.g. mingetty tty[1-6]).
-#
-# For 2.6 kernels up to and including 2.6.13 and later 2.4 redhat kernels
-# (rmap vm without smaps) it can not be accurately determined how many pages
-# are shared between processes in general or within a program in our case:
-# http://lkml.org/lkml/2005/7/6/250
-# A warning is printed if overestimation is possible.
-# In addition for 2.6 kernels up to 2.6.9 inclusive, the shared
-# value in /proc/$pid/statm is the total file-backed extent of a process.
-# We ignore that, introducing more overestimation, again printing a warning.
-# Since kernel 2.6.23-rc8-mm1 PSS is available in smaps, which allows
-# us to calculate a more accurate value for the total RAM used by programs.
-#
-# Programs that use CLONE_VM without CLONE_THREAD are discounted by assuming
-# they're the only programs that have the same /proc/$PID/smaps file for
-# each instance.  This will fail if there are multiple real instances of a
-# program that then use CLONE_VM without CLONE_THREAD, or if a clone changes
-# its memory map while we're checksumming each /proc/$PID/smaps.
-#
-# I don't take account of memory allocated for a program
-# by other programs. For e.g. memory used in the X server for
-# a program could be determined, but is not.
-#
-# FreeBSD is supported if linprocfs is mounted at /compat/linux/proc/
-# FreeBSD 8.0 supports up to a level of Linux 2.6.16
 
 import getopt
 import time
@@ -384,31 +312,19 @@ def shared_val_accuracy():
 def show_shared_val_accuracy( possible_inacc, only_total=False ):
     level = ("Warning","Error")[only_total]
     if possible_inacc == -1:
-        sys.stderr.write(
-         "%s: Shared memory is not reported by this system.\n" % level
-        )
-        sys.stderr.write(
-         "Values reported will be too large, and totals are not reported\n"
-        )
+        sys.stderr.write("%s: Shared memory is not reported by this system.\n" % level)
+        sys.stderr.write("Values reported will be too large, and totals are not reported\n")
     elif possible_inacc == 0:
-        sys.stderr.write(
-         "%s: Shared memory is not reported accurately by this system.\n" % level
-        )
-        sys.stderr.write(
-         "Values reported could be too large, and totals are not reported\n"
-        )
+        sys.stderr.write("%s: Shared memory is not reported accurately by this system.\n" % level)
+        sys.stderr.write("Values reported could be too large, and totals are not reported\n")
     elif possible_inacc == 1:
-        sys.stderr.write(
-         "%s: Shared memory is slightly over-estimated by this system\n"
-         "for each program, so totals are not reported.\n" % level
-        )
+        sys.stderr.write("%s: Shared memory is slightly over-estimated by this system\nfor each program, so totals are not reported.\n" % level)
     sys.stderr.close()
     if only_total and possible_inacc != 2:
         sys.exit(1)
 
 
-def get_memory_usage(pids_to_show, split_args, discriminate_by_pid,
-                     include_self=False, only_self=False):
+def get_memory_usage(pids_to_show, split_args, discriminate_by_pid, include_self=False, only_self=False):
     cmds = {}
     shareds = {}
     mem_ids = {}
@@ -504,13 +420,11 @@ def print_header(show_swap, discriminate_by_pid):
     sys.stdout.write(output_string)
 
 
-def print_memory_usage(sorted_cmds, shareds, count, total, swaps, total_swap,
-                       shared_swaps, total_shared_swap, show_swap):
+def print_memory_usage(sorted_cmds, shareds, count, total, swaps, total_swap, shared_swaps, total_shared_swap, show_swap):
     for cmd in sorted_cmds:
 
         output_string = "%9s + %9s = %9s"
-        output_data = (human(cmd[1]-shareds[cmd[0]]),
-                       human(shareds[cmd[0]]), human(cmd[1]))
+        output_data = (human(cmd[1]-shareds[cmd[0]]), human(shareds[cmd[0]]), human(cmd[1]))
         if show_swap:
             if have_swap_pss:
                 output_string += "\t%9s"
@@ -571,14 +485,11 @@ def main():
             while sorted_cmds:
                 sorted_cmds, shareds, count, total, swaps, shared_swaps, \
                     total_swap, total_shared_swap = \
-                    get_memory_usage(pids_to_show, split_args,
-                                     discriminate_by_pid)
+                    get_memory_usage(pids_to_show, split_args, discriminate_by_pid)
                 if only_total and have_pss:
                     sys.stdout.write(human(total, units=1)+'\n')
                 elif not only_total:
-                    print_memory_usage(sorted_cmds, shareds, count, total,
-                                       swaps, total_swap, shared_swaps,
-                                       total_shared_swap, show_swap)
+                    print_memory_usage(sorted_cmds, shareds, count, total, swaps, total_swap, shared_swaps, total_shared_swap, show_swap)
 
                 sys.stdout.flush()
                 time.sleep(watch)
@@ -589,14 +500,11 @@ def main():
     else:
         # This is the default behavior
         sorted_cmds, shareds, count, total, swaps, shared_swaps, total_swap, \
-            total_shared_swap = get_memory_usage(pids_to_show, split_args,
-                                                 discriminate_by_pid)
+            total_shared_swap = get_memory_usage(pids_to_show, split_args, discriminate_by_pid)
         if only_total and have_pss:
             sys.stdout.write(human(total, units=1)+'\n')
         elif not only_total:
-            print_memory_usage(sorted_cmds, shareds, count, total, swaps,
-                               total_swap, shared_swaps, total_shared_swap,
-                               show_swap)
+            print_memory_usage(sorted_cmds, shareds, count, total, swaps, total_swap, shared_swaps, total_shared_swap, show_swap)
 
     # We must close explicitly, so that any EPIPE exception
     # is handled by our excepthook, rather than the default

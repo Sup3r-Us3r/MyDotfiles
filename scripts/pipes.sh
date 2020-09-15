@@ -1,30 +1,4 @@
 #!/bin/bash
-# Animated pipes.sh terminal screensaver at an angle.
-# Copyright (C) 2013 by Yu-Jie Lin
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-# THE SOFTWARE.
-#
-# Blog: http://blog.yjl.im/2013/07/pipesxsh-animated-pipessh-terminal.html
-# Gist: https://gist.github.com/livibetter/5974905
-# Screenshot: https://lh3.googleusercontent.com/-UaCta_DtgrQ/Ud6dqIgcfmI/AAAAAAAAE_8/VXPac0OpULU/s800/pipesX.sh.gif
-# Screenshot: https://lh6.googleusercontent.com/-yBety-A8J_c/Ud6dk10sjBI/AAAAAAAAE_0/S98aRRV8t0s/s800/pipesX.sh%25202013-07-11--19%253A51%253A05.png
-# Screencast: http://youtu.be/dITTlFPYVPA
 
 W=$(tput cols) H=$(tput lines)
 # maximal random value + 1
@@ -123,21 +97,6 @@ while :; do
     x=${X[n]} y=${Y[n]}
     d=${D[n]} c=${C[n]}
 
-    # calculate new direction `d`
-    # 1  0
-    #  \/  4 directions 0 to 3
-    #  /\
-    # 2  3
-    # valid directions: d: dd', d' is the new direction
-    # d
-    # 0:  / 00 \  01          03
-    #    /     /           /\
-    # 1:  / 10 \  11    12
-    #     \     \    /\
-    # 2:       \/ 21  / 22  / 23
-    #                /      \
-    # 3: \/ 30       \  32 \  33
-    #                /      \
     ((d = (100 * RANDOM / M) < P ? ((d + 1) + 2 * (RANDOM % 2)) % 4 : d))
     ((e = (d + 1) % 4))
 
@@ -183,7 +142,4 @@ done
 
 do_exit
 
-    Status API Training Shop Blog About 
-
-    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
 

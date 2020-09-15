@@ -2,9 +2,6 @@
 
 SSID_NAME=$(iwgetid -r | tr '[:lower:]' '[:upper:]')
 
-# You can put any urgent name so the block will give warning
-# if a network with this name is used, like public wifi or alike.
-# You can separate multiple values with \|
 URGENT_VALUE=""
 
 if [[ "${SSID_NAME}" != "" ]]; then

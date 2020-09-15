@@ -1,6 +1,15 @@
 #!/bin/bash
 
-device="${BLOCK_INSTANCE:-wlp0s26u1u4}"
+ethernetInterface=`ls /sys/class/net | grep 'e'`
+wirelessInterface=`ls /sys/class/net | grep 'w'`
+
+if [ $wirelessInterface ]
+then
+  device="${BLOCK_INSTANCE:-$wirelessInterface}"
+else
+  device="${BLOCK_INSTANCE:-$ethernetInterface}"
+fi
+
 status=$(cat /sys/class/net/${device}/operstate)
 
 URGENT_VALUE=20

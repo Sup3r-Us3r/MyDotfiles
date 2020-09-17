@@ -1,7 +1,9 @@
+#!/bin/bash
+
 # Access: https://myaccount.google.com/security
 
-USER=
-PASS=
+USER=emailGmail
+PASS=passwordGmail
 
 COUNT=`curl -su $USER:$PASS https://mail.google.com/mail/feed/atom || echo "<fullcount>unknown number of</fullcount>"`
 COUNT=`echo "$COUNT" | grep -oPm1 "(?<=<fullcount>)[^<]+" `

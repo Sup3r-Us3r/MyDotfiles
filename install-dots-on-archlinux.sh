@@ -22,10 +22,17 @@ readonly PKGS_PACMAN=(
   numlockx
   ttf-inconsolata ttf-fantasque-sans-mono)
 
-readonly PKGS_AUR=(
-  polybar
-  siji-git
-  nvidia-340xx nvidia-340xx-utils lib32-nvidia-340xx-utils)
+if [ `lspci | grep 'VGA' | awk '{print $5}'` == 'NVIDIA' ]
+then
+  readonly PKGS_AUR=(
+    polybar
+    siji-git
+    nvidia-340xx nvidia-340xx-utils lib32-nvidia-340xx-utils)
+else
+  readonly PKGS_AUR=(
+    polybar
+    siji-git)
+fi
 
 function install_pkgs_pacman(){
   for i in "${PKGS_PACMAN[@]}"; do
@@ -156,7 +163,14 @@ function config_setup(){
   sed -i "s/enp0s3/$ethernetInterface/g" $HOME/.config/polybar/backup/config
   sed -i "s/wlp0s26u1u4/$wirelessInterface/g" $HOME/.config/polybar/config
   sed -i "s/wlp0s26u1u4/$wirelessInterface/g" $HOME/.config/polybar/backup/config
-  
+
+  echo -e "\nCONFIGURE EMAIL AND PASSWORD FOR GMAIL SCRIPT IN POLYBAR\n"
+  sleep 3
+  read -p "Email: " emailGmail
+  sed -i "s/emailGmail/$emailGmail/g" $HOME/.config/polybar/scripts/mail
+  read -p "Password: " passwordGmail
+  sed -i "s/passwordGmail/$passwordGmail/g" $HOME/.config/polybar/scripts/mail
+
   echo -e "\CONFIGURING PACMAN.CONF\n"
   sleep 3
   sudo sed -i '37iILoveCandy' /etc/pacman.conf
@@ -169,8 +183,9 @@ function oh-my-zsh(){
   sleep 3
   cd $HOME
   sudo rm -rf $HOME/.oh-my-zsh
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  mkdir -p $HOME/.oh-my-zsh/custom/plugins
   git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   cp $HOME/Downloads/MyDotfiles/.zshrc $HOME/.zshrc
   source ~/.zshrc
 }

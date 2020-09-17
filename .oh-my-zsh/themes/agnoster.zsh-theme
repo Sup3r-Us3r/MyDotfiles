@@ -4,8 +4,8 @@ CURRENT_BG='NONE'
 
 # Cor do ~
 case ${SOLARIZED_THEME:-dark} in
-    light) CURRENT_FG='white';;
-    *)     CURRENT_FG='white';;
+  light) CURRENT_FG='white';;
+  *)     CURRENT_FG='white';;
 esac
 
 # Special Powerline characters

@@ -1,5 +1,3 @@
-;==========================================================
-;
 ;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
@@ -8,20 +6,18 @@
 ;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
 ;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 ;
-;
-;==========================================================
 
 ;======================================================================================
 ;======================================================================================
 
 [colors]
-background = #222
-background-alt = #e13448
+background = #aa2F343F
+background-alt = #7159c1
 foreground = #dfdfdf
-foreground-alt = #e13448
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+foreground-alt = #7159c1
+primary = #7159c1
+secondary = #7159c1
+alert = #7159c1
 
 ;======================================================================================
 ;======================================================================================
@@ -35,17 +31,11 @@ height = 27
 ;offset-y = 1%
 radius = 0.0
 fixed-center = false
-border-bottom-size = 5
-border-bottom-color = #e13448
+border-bottom-size = 3
+border-bottom-color = ${colors.foreground-alt}
 
 background = ${colors.background}
 foreground = ${colors.foreground}
-
-;line-size = 3
-;line-color = #f00
-
-;border-size = 4
-;border-color = #00000000
 
 padding-left = 0
 padding-right = 2
@@ -59,23 +49,7 @@ font-2 = "Siji:pixelsize=10;1"
 
 modules-left = i3
 modules-center = xwindow
-modules-right = alsa filesystem memory cpu pkg mail ssid temperature date xkeyboard powermenu
-
-;tray-position = right
-;tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+modules-right = alsa filesystem memory cpu pkg mail eth ssid temperature date xkeyboard powermenu
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -115,8 +89,8 @@ interval = 25
 
 mount-0 = /
 
-;label-mounted = %{F#e13448}%mountpoint%%{F-}: %percentage_used%%
-label-mounted = %{F#e13448}%{F-}: %percentage_used%%
+;label-mounted = %{F#7159c1}%mountpoint%%{F-}: %percentage_used%%
+label-mounted = %{F#7159c1}%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -209,11 +183,11 @@ label = BL
 
 bar-width = 10
 bar-indicator = |
-bar-indicator-foreground = #fff
+bar-indicator-foreground = ${colors.foreground}
 bar-indicator-font = 2
 bar-fill = ─
 bar-fill-font = 2
-bar-fill-foreground = #9f78e1
+bar-fill-foreground = #7159c1
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.foreground-alt}
@@ -234,7 +208,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
+format-underline = #7159c1
 label = %percentage:2%%
 
 ;======================================================================================
@@ -245,7 +219,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+format-underline = #7159c1
 label = %percentage_used%%
 
 ;======================================================================================
@@ -257,7 +231,7 @@ interface = wlp0s26u1u4
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+format-connected-underline = #7159c1
 label-connected = %essid%
 
 format-disconnected =
@@ -281,7 +255,7 @@ type = internal/network
 interface = enp0s3
 interval = 3.0
 
-format-connected-underline = #55aa55
+format-connected-underline = #7159c1
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -305,9 +279,9 @@ date-alt = " %d-%m-%Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+format-underline = #7159c1
 
 label = %date% %time%
 
@@ -322,7 +296,7 @@ label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
-label-muted-foreground = #666
+label-muted-foreground = ${colors.foreground-alt}
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
@@ -331,7 +305,7 @@ bar-volume-foreground-2 = #55aa55
 bar-volume-foreground-3 = #55aa55
 bar-volume-foreground-4 = #55aa55
 bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+bar-volume-foreground-6 = #7159c1
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
@@ -362,7 +336,7 @@ bar-volume-foreground-2 = #55aa55
 bar-volume-foreground-3 = #55aa55
 bar-volume-foreground-4 = #55aa55
 bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+bar-volume-foreground-6 = #7159c1
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
@@ -382,7 +356,7 @@ adapter = ADP1
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = #7159c1
 
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -417,7 +391,7 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #f50a4d
+format-underline = #7159c1
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
@@ -479,7 +453,7 @@ format-prefix = " "
 format = <label>
 exec = python ~/.config/polybar/scripts/spotify_status.py
 format-prefix-foreground = ${colors.foreground-alt}
-;format-underline = #1db954
+;format-underline = #7159c1
 
 ;======================================================================================
 ;======================================================================================
@@ -498,7 +472,7 @@ format-prefix-foreground = ${colors.foreground-alt}
 [module/pkg]
 type = custom/script
 interval = 1
-format-prefix = " "
+format-prefix = " "
 format = <label>
 exec = sh ~/.config/polybar/scripts/pkg
 format-prefix-foreground = ${colors.foreground-alt}
@@ -509,7 +483,7 @@ format-prefix-foreground = ${colors.foreground-alt}
 [module/mail]
 type = custom/script
 interval = 1
-format-prefix = " "
+format-prefix = " "
 format = <label>
 exec = sh ~/.config/polybar/scripts/mail
 format-prefix-foreground = ${colors.foreground-alt}

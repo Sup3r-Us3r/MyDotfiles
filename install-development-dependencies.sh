@@ -3,14 +3,14 @@
 readonly PKGS_PACMAN=(
   npm
   yarn
+  nodejs
   docker
   docker-compose
-  jdk8-openjdk
-  unzip)
+  jdk8-openjdk)
 
 readonly PKGS_AUR=(
   visual-studio-code-bin
-  insomnia
+  insomnia-bin
   robo3t-bin
   reactotron)
 
@@ -40,6 +40,8 @@ function install_vscode_extensions(){
   code --install-extension rocketseat.theme-omni
   code --install-extension alexcvzz.vscode-sqlite
   code --install-extension dart-code.dart-code
+  code --install-extension jeroen-meijer.pubspec-assist
+  code --install-extension coenraads.bracket-pair-colorizer-2
   code --install-extension dart-code.flutter
   code --install-extension jpoissonnier.vscode-styled-components
   code --install-extension leizongmin.node-module-intellisense
@@ -47,7 +49,7 @@ function install_vscode_extensions(){
   code --install-extension naumovs.color-highlight
   code --install-extension oderwat.indent-rainbow
   code --install-extension PKief.material-icon-theme
-  code --install-extension Prisma.vscode-graphql
+  code --install-extension graphql.vscode-graphql
   code --install-extension ritwickdey.LiveServer
   code --install-extension VisualStudioExptTeam.vscodeintellicode
 }
@@ -77,7 +79,7 @@ function mobile_enviroment(){
   clear
   echo -e "PREPARING MOBILE ENVIRONMENT\n"
   sleep 3
-  cd $HOME
+  cd $HOME/Downloads/MyDotfiles
   sudo archlinux-java set java-8-openjdk
   sudo rm -rf $HOME/.Android
   sudo rm -rf $HOME/.android
@@ -90,8 +92,8 @@ function mobile_enviroment(){
   build=`sed -nr "s/^_build=([^=]+)$/\1/p" getAndroidStudioDataForDownload.txt`
   curl -o android-studio.tar.gz https://dl.google.com/dl/android/studio/ide-zips/$pkgver/android-studio-ide-$build-linux.tar.gz
   tar -xf android-studio.tar.gz
-  mv android-studio .android-studio
-  echo "Continue installing Android Studio"
+  mv android-studio $HOME/.android-studio
+  echo -e "\nContinue installing Android Studio\n"
   echo "https://react-native.rocketseat.dev/android/linux"
 }
 

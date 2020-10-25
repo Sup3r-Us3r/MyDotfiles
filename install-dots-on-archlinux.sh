@@ -9,6 +9,7 @@ readonly PKGS_PACMAN=(
   termite
   zsh
   curl
+  unzip
   feh
   nautilus
   xdg-user-dirs xdg-user-dirs-gtk xdg-utils
@@ -22,17 +23,9 @@ readonly PKGS_PACMAN=(
   numlockx
   ttf-inconsolata ttf-fantasque-sans-mono)
 
-if [ `lspci | grep 'VGA' | awk '{print $5}'` == 'NVIDIA' ]
-then
-  readonly PKGS_AUR=(
-    polybar
-    siji-git
-    nvidia-340xx nvidia-340xx-utils lib32-nvidia-340xx-utils)
-else
-  readonly PKGS_AUR=(
-    polybar
-    siji-git)
-fi
+readonly PKGS_AUR=(
+  polybar
+  siji-git)
 
 function install_pkgs_pacman(){
   for i in "${PKGS_PACMAN[@]}"; do
@@ -62,15 +55,23 @@ function install_yay(){
   fi
 }
 
-function install_powerline_fonts(){
+function install_fonts(){
   clear
-  echo -e "INSTALL POWERLINE FONTS\n"
+  echo -e "INSTALL POWERLINE FONTS AND FIRA CODE\n"
   sleep 3
-  cd $HOME
+  cd $HOME/Downloads/MyDotfiles
   sudo rm -rf fonts
   git clone https://github.com/powerline/fonts.git
   sh fonts/install.sh
   sudo rm -rf fonts
+  sudo rm -rf .fonts/firacode/firacodeUnzip
+  cd .fonts/firacode
+  mkdir firacodeUnzip
+  cp Fira_Code_v5.2.zip firacodeUnzip
+  cd firacodeUnzip
+  unzip Fira_Code_v5.2.zip
+  sudo mv ttf/* /usr/share/fonts/TTF
+  fc-cache -fv
 }
 
 function install_dotfiles(){
@@ -109,8 +110,11 @@ function install_dotfiles(){
   echo -e "\nINSTALL TERMITE CONFIG\n"
   sleep 3
   sudo rm -rf $HOME/.config/termite
+  sudo rm -rf $HOME/.config/gtk-3.0
   mkdir -p $HOME/.config/termite
+  mkdir -p $HOME/.config/gtk-3.0
   cp -r .config/termite $HOME/.config
+  cp -r .config/gtk-3.0 $HOME/.config
 
   echo -e "\nINSTALL .XINITRC CONFIG\n"
   sleep 3
@@ -124,9 +128,15 @@ function install_dotfiles(){
 
   echo -e "\nINSTALL GTK THEME\n"
   sleep 3
-  sudo rm -rf /usr/share/themes/Sweet-Dark
-  tar -Jxxvf .themes/Sweet-Dark.tar.xz
-  sudo mv Sweet-Dark /usr/share/themes
+  sudo rm -rf dracula.zip
+  sudo rm -rf dracula
+  # sudo rm -rf /usr/share/themes/Sweet-Dark
+  sudo rm -rf /usr/share/themes/dracula
+  curl -s https://codeload.github.com/dracula/gtk/zip/master -o dracula.zip
+  mv gtk-master dracula
+  # tar -Jxxvf .themes/Sweet-Dark.tar.xz
+  # sudo mv Sweet-Dark /usr/share/themes
+  sudo mv dracula /usr/share/themes
 
   echo -e "\nINSTALL ICON THEME\n"
   sleep 3
@@ -171,10 +181,20 @@ function config_setup(){
   read -p "Password: " passwordGmail
   sed -i "s/passwordGmail/$passwordGmail/g" $HOME/.config/polybar/scripts/mail
 
-  echo -e "\CONFIGURING PACMAN.CONF\n"
+  echo -e "\nCONFIGURING PACMAN.CONF\n"
   sleep 3
   sudo sed -i '37iILoveCandy' /etc/pacman.conf
   sudo sed -i '/Color/,+1 s/^#//' /etc/pacman.conf
+
+  echo -e "\nAPPLY WALLPAPER\n"
+  if [ -d "$HOME/Pictures" ]; then
+    cp wallpaper/wallpaper.jpg $HOME/Pictures
+    feh --bg-scale $HOME/Pictures/wallpaper.jpg
+  else
+    cp wallpaper/wallpaper.jpg $HOME/Imagens
+    feh --bg-scale $HOME/Imagens/wallpaper.jpg
+    sed -i "s/Pictures/Imagens/g" $HOME/.config/i3/config
+  fi
 }
 
 function oh-my-zsh(){
@@ -183,11 +203,9 @@ function oh-my-zsh(){
   sleep 3
   cd $HOME
   sudo rm -rf $HOME/.oh-my-zsh
-  mkdir -p $HOME/.oh-my-zsh/custom/plugins
-  git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
   cp $HOME/Downloads/MyDotfiles/.zshrc $HOME/.zshrc
-  source ~/.zshrc
 }
 
 function config_system(){
@@ -204,7 +222,7 @@ function config_system(){
 install_pkgs_pacman
 install_yay
 install_pkgs_aur
-install_powerline_fonts
+install_fonts
 install_dotfiles
 config_setup
 config_system

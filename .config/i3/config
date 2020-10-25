@@ -35,7 +35,7 @@ font pango:Droid Sans Mono 8
 
 # Theme colors
 #class                  border  backgr. text    indicator
-client.focused          #7f8f9f #eeeeee #000000 #cad0c4
+client.focused          #7159c1 #7159c1 #000000 #cad0c4
 client.focused_inactive #000000 #161616 #2D2D2D
 client.unfocused        #000000 #161616 #605e56
 client.urgent           #a5a5a5 #a5a5a5 #1E1E1E
@@ -85,7 +85,7 @@ bindsym $mod+F6 exec xbacklight -inc 10
 #exec --no-startup-id mpd
 #exec --no-startup-id compton --config ~/.config/compton.conf &
 #exec --no-startup-id picom --config ~/.config/picom/picom.conf &
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper152.png &
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg &
 exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id numlockx on &
 
@@ -351,7 +351,7 @@ bindsym $mod+r mode "resize"
 ##======================================================================================
 # I3-GAPS SETTINGS
 
-for_window [class="^.*"] border pixel 5 #troque o 5 por 0 se quiser excluir as bordas.
+for_window [class="^.*"] border pixel 2
 smart_borders on #no_gaps
 #espaços entre as janelas
 gaps inner 10

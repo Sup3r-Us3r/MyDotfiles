@@ -133,6 +133,7 @@ function install_dotfiles(){
   # sudo rm -rf /usr/share/themes/Sweet-Dark
   sudo rm -rf /usr/share/themes/dracula
   curl -s https://codeload.github.com/dracula/gtk/zip/master -o dracula.zip
+  unzip dracula.zip
   mv gtk-master dracula
   # tar -Jxxvf .themes/Sweet-Dark.tar.xz
   # sudo mv Sweet-Dark /usr/share/themes

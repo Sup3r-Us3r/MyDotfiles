@@ -16,10 +16,11 @@ readonly PKGS_PACMAN=(
   leafpad
   lxappearance
   scrot
+  python-mss
   git
   lm_sensors
   alsa-utils alsa-lib
-  xorg-server xorg-xprop xorg-xinit xorg-xrandr
+  xorg-server xorg-xprop xorg-xinit xorg-xrandr arandr
   numlockx
   ttf-inconsolata ttf-fantasque-sans-mono)
 
@@ -130,13 +131,10 @@ function install_dotfiles(){
   sleep 3
   sudo rm -rf dracula.zip
   sudo rm -rf dracula
-  # sudo rm -rf /usr/share/themes/Sweet-Dark
   sudo rm -rf /usr/share/themes/dracula
   curl -s https://codeload.github.com/dracula/gtk/zip/master -o dracula.zip
   unzip dracula.zip
   mv gtk-master dracula
-  # tar -Jxxvf .themes/Sweet-Dark.tar.xz
-  # sudo mv Sweet-Dark /usr/share/themes
   sudo mv dracula /usr/share/themes
 
   echo -e "\nINSTALL ICON THEME\n"
@@ -206,6 +204,9 @@ function oh-my-zsh(){
   sudo rm -rf $HOME/.oh-my-zsh
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+  git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+  git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+  ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
   cp $HOME/Downloads/MyDotfiles/.zshrc $HOME/.zshrc
 }
 

@@ -63,7 +63,7 @@ floating_modifier $mod
 # MY SHORTCUTS
 
 bindsym $mod+t exec nautilus
-bindsym $mod+g exec google-chrome-stable
+bindsym $mod+g exec microsoft-edge-dev
 bindsym --release Print exec --no-startup-id scrot %Y-%m-%d-%T.png -e 'mv $f ~/Prints/'
 bindsym $mod+Control+l exec ~/.config/i3/i3lock/i3lock.sh
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks

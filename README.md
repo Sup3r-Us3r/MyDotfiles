@@ -1,28 +1,13 @@
-<pre>
-    ████████▄   ▄██████▄      ███        ▄████████ 
-    ███   ▀███ ███    ███ ▀█████████▄   ███    ███ 
-    ███    ███ ███    ███    ▀███▀▀██   ███    █▀  
-    ███    ███ ███    ███     ███   ▀   ███        
-    ███    ███ ███    ███     ███     ▀███████████ 
-    ███    ███ ███    ███     ███              ███ 
-    ███   ▄███ ███    ███     ███        ▄█    ███ 
-    ████████▀   ▀██████▀     ▄████▀    ▄████████▀  
-</pre>
+<h1 align="center">
+  <img alt="Logo" title="Logo" src=".github/logo.png" />
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=ARCH&message=I3WM&color=7159C1&labelColor=AA2F343F" alt="OS" />
+</p>
 
 <br>
 
-### CURRENT SETUP
-
-| Description       | Packages                          |
-| ----------------- | --------------------------------- |
-| Window Manager    | <kbd>i3gaps</kbd>                 |
-| Bar               | <kbd>polybar</kbd>                |
-| Terminal Emulator | <kbd>termite</kbd>                |
-| Compositor        | <kbd>picom</kbd>                  |
-| File Manager      | <kbd>nautilus</kbd>               |
-| Text Editor       | <kbd>leafpad</kbd>                |
-| Font              | <kbd>fantasque-sans-mono</kbd>    |
-| Program Launcher  | <kbd>rofi</kbd>                   |
-| Browser           | <kbd>google-chrome-stable</kbd>   |
-| Video             | <kbd>mplayer</kbd>                |
-| Development       | <kbd>visual-studio-code-bin</kbd> |
+<p align="center">
+  <img alt="Arch" src=".github/arch.png" width="100%">
+</p>

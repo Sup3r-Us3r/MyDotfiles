@@ -12,6 +12,7 @@ readonly PKGS_AUR=(
   visual-studio-code-bin
   insomnia-bin
   robo3t-bin
+  beekeeper-studio-bin
   reactotron)
 
 function install_pkgs_pacman(){
@@ -52,6 +53,7 @@ function install_vscode_extensions(){
   code --install-extension graphql.vscode-graphql
   code --install-extension ritwickdey.LiveServer
   code --install-extension VisualStudioExptTeam.vscodeintellicode
+  code --install-extension TabNine.tabnine-vscode
 }
 
 function install_vscode_config(){
@@ -86,13 +88,30 @@ function mobile_enviroment(){
   mkdir -p $HOME/.Android/Sdk
   sudo rm -rf getAndroidStudioDataForDownload.txt
   sudo rm -rf android-studio.tar.gz
-  sudo rm -rf .android-studio
+  sudo rm -rf android-studio
   curl -o getAndroidStudioDataForDownload.txt https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=android-studio
   pkgver=`sed -nr "s/^pkgver=([^=]+)$/\1/p" getAndroidStudioDataForDownload.txt`
   build=`sed -nr "s/^_build=([^=]+)$/\1/p" getAndroidStudioDataForDownload.txt`
   curl -o android-studio.tar.gz https://dl.google.com/dl/android/studio/ide-zips/$pkgver/android-studio-ide-$build-linux.tar.gz
   tar -xf android-studio.tar.gz
   mv android-studio $HOME/.android-studio
+
+  flutter_enviroment
+  react_native_enviroment
+}
+
+function flutter_enviroment(){
+  clear
+  echo -e "PREPARING FLUTTER ENVIRONMENT\n"
+  sleep 3
+  sudo rm -rf $HOME/.flutter-dev
+  git clone https://github.com/flutter/flutter.git -b stable --depth 1 $HOME/.flutter-dev/flutter
+}
+
+function react_native_enviroment(){
+  clear
+  echo -e "PREPARING REACT NATIVE ENVIRONMENT\n"
+  sleep 3
   echo -e "\nContinue installing Android Studio\n"
   echo "https://react-native.rocketseat.dev/android/linux"
 }
